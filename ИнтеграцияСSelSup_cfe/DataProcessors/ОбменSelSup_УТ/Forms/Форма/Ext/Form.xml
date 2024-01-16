@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -37,7 +37,6 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="217"/>
 							<ChildItems>
@@ -86,12 +85,11 @@
 									<ExtendedTooltip name="ВыбНомерЗаказаРасширеннаяПодсказка" id="325"/>
 								</InputField>
 								<UsualGroup name="Группа9" id="728">
-									<Behavior>Usual</Behavior>
+									<Group>Vertical</Group>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="729"/>
 									<ChildItems>
 										<UsualGroup name="Группа12" id="768">
-											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="769"/>
 											<ChildItems>
@@ -260,7 +258,6 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="Группа13" id="816">
-											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="817"/>
 											<ChildItems>
@@ -278,7 +275,6 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="Группа10" id="764">
-											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="765"/>
 											<ChildItems>
@@ -385,7 +381,6 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="Группа11" id="766">
-											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="767"/>
 											<ChildItems>
@@ -673,7 +668,6 @@
 											<ExtendedTooltip name="ЗаказыНомерЗаказаРасширеннаяПодсказка" id="237"/>
 										</InputField>
 										<InputField name="ЗаказыClientId" id="919">
-											<DataPath>1/0:47ac8264-15af-4b61-a02b-33a1eb26e286/0:249d0979-1e06-492c-9278-18a675a1df67</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ЗаказыClientIdКонтекстноеМеню" id="920"/>
 											<ExtendedTooltip name="ЗаказыClientIdРасширеннаяПодсказка" id="921"/>
@@ -852,7 +846,6 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="681"/>
 							<ChildItems>
@@ -876,6 +869,12 @@
 										<Event name="OnChange">TextQueryПриИзменении</Event>
 									</Events>
 								</InputField>
+								<InputField name="ЧислоТоваров" id="931">
+									<DataPath>Объект.ЧислоТоваров</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ЧислоТоваровКонтекстноеМеню" id="932"/>
+									<ExtendedTooltip name="ЧислоТоваровРасширеннаяПодсказка" id="933"/>
+								</InputField>
 								<CheckBoxField name="CreatedIn" id="868">
 									<DataPath>Объект.CreatedIn</DataPath>
 									<Title>
@@ -894,7 +893,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа15" id="848">
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа15РасширеннаяПодсказка" id="849"/>
@@ -1095,7 +1093,6 @@
 								</v8:item>
 							</ToolTip>
 							<VerticalAlign>Center</VerticalAlign>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСопоставленияТоваровРасширеннаяПодсказка" id="518"/>
@@ -1146,6 +1143,16 @@
 												<CommandName>Form.Command.УдалитьСопоставлениеНоменклатурыСписком</CommandName>
 												<ExtendedTooltip name="ТоварыSelSupОтвязатьНоменклатурыСпискомРасширеннаяПодсказка" id="899"/>
 											</Button>
+											<Button name="ТоварыSelSupСопоставитьВсеНоменклатурыСписком" id="937">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.СопоставитьВсеНоменклатурыСписком</CommandName>
+												<ExtendedTooltip name="ТоварыSelSupСопоставитьВсеНоменклатурыСпискомРасширеннаяПодсказка" id="938"/>
+											</Button>
+											<Button name="ТоварыSelSupУдалитьНоменклатурыСписком" id="939">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УдалитьТоварыНаСайте</CommandName>
+												<ExtendedTooltip name="ТоварыSelSupУдалитьНоменклатурыСпискомРасширеннаяПодсказка" id="940"/>
+											</Button>
 											<Button name="ТоварыSelSupОбновитьСписокТоваров" id="900">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ОбновитьСписокТоваровSelSup</CommandName>
@@ -1179,16 +1186,17 @@
 										<ExtendedTooltip name="ТоварыSelSupУправлениеПоискомРасширеннаяПодсказка" id="531"/>
 									</SearchControlAddition>
 									<Events>
+										<Event name="Selection">ТоварыSelSupВыбор</Event>
 										<Event name="OnActivateRow">СписокТоваровSelSupПриАктивизацииСтроки</Event>
 									</Events>
 									<ChildItems>
-										<CheckBoxField name="ТоварыSelSupCreatelink" id="881">
+										<CheckBoxField name="СписокТоваровCreatelink" id="881">
 											<DataPath>Объект.ТоварыSelSup.createlink</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ТоварыSelSupCreatelinkКонтекстноеМеню" id="882"/>
-											<ExtendedTooltip name="ТоварыSelSupCreatelinkРасширеннаяПодсказка" id="883"/>
+											<ContextMenu name="СписокТоваровCreatelinkКонтекстноеМеню" id="882"/>
+											<ExtendedTooltip name="СписокТоваровCreatelinkРасширеннаяПодсказка" id="883"/>
 										</CheckBoxField>
 										<LabelField name="СписокТоваровSelSupНомерСтроки" id="535">
 											<DataPath>Объект.ТоварыSelSup.LineNumber</DataPath>
@@ -1196,6 +1204,20 @@
 											<ContextMenu name="СписокТоваровSelSupНомерСтрокиКонтекстноеМеню" id="536"/>
 											<ExtendedTooltip name="СписокТоваровSelSupНомерСтрокиРасширеннаяПодсказка" id="537"/>
 										</LabelField>
+										<InputField name="СписокТоваровLinksNoBlock" id="934">
+											<DataPath>Объект.ТоварыSelSup.linksNoBlock</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Ссылка</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<CellHyperlink>true</CellHyperlink>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="СписокТоваровLinksNoBlockКонтекстноеМеню" id="935"/>
+											<ExtendedTooltip name="СписокТоваровLinksNoBlockРасширеннаяПодсказка" id="936"/>
+										</InputField>
 										<InputField name="СписокТоваровSelSupId" id="532">
 											<DataPath>Объект.ТоварыSelSup.id</DataPath>
 											<Visible>false</Visible>
@@ -1203,15 +1225,15 @@
 											<ContextMenu name="СписокТоваровSelSupIdКонтекстноеМеню" id="533"/>
 											<ExtendedTooltip name="СписокТоваровSelSupIdРасширеннаяПодсказка" id="534"/>
 										</InputField>
-										<PictureField name="ТоварыSelSupФото" id="682">
+										<PictureField name="СписокТоваровФото" id="682">
 											<DataPath>Объект.ТоварыSelSup.Фото</DataPath>
 											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>10</Width>
 											<Height>4</Height>
 											<PictureSize>Proportionally</PictureSize>
-											<ContextMenu name="ТоварыSelSupФотоКонтекстноеМеню" id="683"/>
-											<ExtendedTooltip name="ТоварыSelSupФотоРасширеннаяПодсказка" id="684"/>
+											<ContextMenu name="СписокТоваровФотоКонтекстноеМеню" id="683"/>
+											<ExtendedTooltip name="СписокТоваровФотоРасширеннаяПодсказка" id="684"/>
 										</PictureField>
 										<InputField name="СписокТоваровSelSupName" id="538">
 											<DataPath>Объект.ТоварыSelSup.name</DataPath>
@@ -1268,7 +1290,6 @@
 								</Table>
 								<UsualGroup name="Группа17" id="896">
 									<HorizontalSpacing>None</HorizontalSpacing>
-									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа17РасширеннаяПодсказка" id="897"/>
 									<ChildItems>
@@ -1303,7 +1324,6 @@
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа8" id="690">
-									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="691"/>
 									<ChildItems>
@@ -1368,6 +1388,26 @@
 													<ContextMenu name="СписокТоваров1CНомерСтрокаКонтекстноеМеню" id="566"/>
 													<ExtendedTooltip name="СписокТоваров1CНомерСтрокаРасширеннаяПодсказка" id="567"/>
 												</LabelField>
+												<InputField name="СписокТоваров1CBarcode" id="941">
+													<DataPath>Объект.Товары1C.barcode</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Штрих-код</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СписокТоваров1CBarcodeКонтекстноеМеню" id="942"/>
+													<ExtendedTooltip name="СписокТоваров1CBarcodeРасширеннаяПодсказка" id="943"/>
+												</InputField>
+												<InputField name="СписокТоваров1CКод" id="944">
+													<DataPath>Объект.Товары1C.Код</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СписокТоваров1CКодКонтекстноеМеню" id="945"/>
+													<ExtendedTooltip name="СписокТоваров1CКодРасширеннаяПодсказка" id="946"/>
+												</InputField>
 												<InputField name="СписокТоваров1CНоменклатура" id="568">
 													<DataPath>Объект.Товары1C.Номенклатура</DataPath>
 													<Title>
@@ -1379,6 +1419,19 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СписокТоваров1CНоменклатураКонтекстноеМеню" id="569"/>
 													<ExtendedTooltip name="СписокТоваров1CНоменклатураРасширеннаяПодсказка" id="570"/>
+												</InputField>
+												<InputField name="СписокТоваров1CХарактеристика" id="947">
+													<DataPath>Объект.Товары1C.Характеристика</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Характеристика 1С</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СписокТоваров1CХарактеристикаКонтекстноеМеню" id="948"/>
+													<ExtendedTooltip name="СписокТоваров1CХарактеристикаРасширеннаяПодсказка" id="949"/>
 												</InputField>
 												<InputField name="СписокТоваров1CSkuId" id="571">
 													<DataPath>Объект.Товары1C.id</DataPath>
@@ -1431,7 +1484,6 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="160"/>
 							<ChildItems>
@@ -1762,7 +1814,6 @@
 									<v8:content>Отсканируйте штрих-код товара: Сборка заказа</v8:content>
 								</v8:item>
 							</Title>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="827"/>
 							<ChildItems>
@@ -1897,7 +1948,6 @@
 									<v8:content>Отборы для вариантов: Настройка справочников и заказов</v8:content>
 								</v8:item>
 							</Title>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа18РасширеннаяПодсказка" id="909"/>
 							<ChildItems>
@@ -2045,7 +2095,6 @@
 											<v8:content>Настройка справочников</v8:content>
 										</v8:item>
 									</Title>
-									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="585"/>
 									<ChildItems>
 										<Table name="Организации" id="586">
@@ -2494,7 +2543,6 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
-			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="СтраницаЗаполнениеУНФРасширеннаяПодсказка" id="458"/>
 			<ChildItems>
 				<InputField name="Организация1" id="459">
@@ -2557,9 +2605,6 @@
 				<v8:Type>cfg:DataProcessorObject.ОбменSelSup_УТ</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
-			<UseAlways>
-				<Field>Объект.ТоварыSelSup.Фото</Field>
-			</UseAlways>
 			<Save>
 				<Field>1/0:ac0afd36-cc20-4b5b-b082-e3b0039d24b7</Field>
 				<Field>Объект.ApiKey</Field>
@@ -3613,6 +3658,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьСписокТоваровSelSup</Action>
+		</Command>
+		<Command name="СопоставитьВсеНоменклатурыСписком" id="67">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить сразу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить все номенклатуры списком</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СопоставитьВсеНоменклатурыСписком</Action>
+		</Command>
+		<Command name="УдалитьТоварыНаСайте" id="68">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить товар</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить товары на сайте</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьТоварыНаСайте</Action>
 		</Command>
 	</Commands>
 </Form>
