@@ -1681,38 +1681,6 @@
 									<ContextMenu name="ТоварыID_SelSupКонтекстноеМеню" id="193"/>
 									<ExtendedTooltip name="ТоварыID_SelSupРасширеннаяПодсказка" id="194"/>
 								</InputField>
-								<InputField name="ТоварыОстатокSelSup" id="84">
-									<DataPath>Объект.Товары.ОстатокSelSup</DataPath>
-									<Visible>false</Visible>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Остаток SelSup (в наличии)</v8:content>
-										</v8:item>
-									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ТоварыОстатокSelSupКонтекстноеМеню" id="85"/>
-									<ExtendedTooltip name="ТоварыОстатокSelSupРасширеннаяПодсказка" id="86"/>
-								</InputField>
-								<ColumnGroup name="ТоварыГруппа4" id="188">
-									<ExtendedTooltip name="ТоварыГруппа4РасширеннаяПодсказка" id="189"/>
-									<ChildItems>
-										<InputField name="ТоварыКолВоОжидаемыхКПоставкеSelSup" id="182">
-											<DataPath>Объект.Товары.ОжидаетсяКПоставкеSelSup</DataPath>
-											<Visible>false</Visible>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ТоварыКолВоОжидаемыхКПоставкеSelSupКонтекстноеМеню" id="183"/>
-											<ExtendedTooltip name="ТоварыКолВоОжидаемыхКПоставкеSelSupРасширеннаяПодсказка" id="184"/>
-										</InputField>
-										<InputField name="ТоварыКолВоВРезервеSelSup" id="185">
-											<DataPath>Объект.Товары.ВРезервеSelSup</DataPath>
-											<Visible>false</Visible>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ТоварыКолВоВРезервеSelSupКонтекстноеМеню" id="186"/>
-											<ExtendedTooltip name="ТоварыКолВоВРезервеSelSupРасширеннаяПодсказка" id="187"/>
-										</InputField>
-									</ChildItems>
-								</ColumnGroup>
 								<InputField name="ТоварыСклад" id="656">
 									<DataPath>Объект.Товары.Склад</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -1732,6 +1700,18 @@
 									<ContextMenu name="ТоварыОстатокКонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="ТоварыОстатокРасширеннаяПодсказка" id="89"/>
 								</InputField>
+								<InputField name="ТоварыОстатокSelSup" id="84">
+									<DataPath>Объект.Товары.ОстатокSelSup</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Остаток SelSup (в наличии)</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыОстатокSelSupКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ТоварыОстатокSelSupРасширеннаяПодсказка" id="86"/>
+								</InputField>
 								<InputField name="ТоварыРезерв1С" id="177">
 									<DataPath>Объект.Товары.Резерв1С</DataPath>
 									<Visible>false</Visible>
@@ -1745,6 +1725,24 @@
 									<ContextMenu name="ТоварыРезерв1СКонтекстноеМеню" id="178"/>
 									<ExtendedTooltip name="ТоварыРезерв1СРасширеннаяПодсказка" id="179"/>
 								</InputField>
+								<ColumnGroup name="ТоварыГруппа4" id="188">
+									<ExtendedTooltip name="ТоварыГруппа4РасширеннаяПодсказка" id="189"/>
+									<ChildItems>
+										<InputField name="ТоварыКолВоОжидаемыхКПоставкеSelSup" id="182">
+											<DataPath>Объект.Товары.ОжидаетсяКПоставкеSelSup</DataPath>
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ТоварыКолВоОжидаемыхКПоставкеSelSupКонтекстноеМеню" id="183"/>
+											<ExtendedTooltip name="ТоварыКолВоОжидаемыхКПоставкеSelSupРасширеннаяПодсказка" id="184"/>
+										</InputField>
+										<InputField name="ТоварыКолВоВРезервеSelSup" id="185">
+											<DataPath>Объект.Товары.ВРезервеSelSup</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ТоварыКолВоВРезервеSelSupКонтекстноеМеню" id="186"/>
+											<ExtendedTooltip name="ТоварыКолВоВРезервеSelSupРасширеннаяПодсказка" id="187"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
 								<ColumnGroup name="ТоварыГруппа6" id="339">
 									<ExtendedTooltip name="ТоварыГруппа6РасширеннаяПодсказка" id="340"/>
 									<ChildItems>
@@ -1757,7 +1755,6 @@
 										</InputField>
 										<InputField name="ТоварыЦена1С" id="344">
 											<DataPath>Объект.Товары.Цена1С</DataPath>
-											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ТоварыЦена1СКонтекстноеМеню" id="345"/>
 											<ExtendedTooltip name="ТоварыЦена1СРасширеннаяПодсказка" id="346"/>
@@ -1972,6 +1969,15 @@
 									</Title>
 									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="670"/>
 									<ChildItems>
+										<CheckBoxField name="ВключитьТестовыйРежим" id="950">
+											<DataPath>Объект.ВключитьТестовыйРежим</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ВключитьТестовыйРежимКонтекстноеМеню" id="951"/>
+											<ExtendedTooltip name="ВключитьТестовыйРежимРасширеннаяПодсказка" id="952"/>
+											<Events>
+												<Event name="OnChange">ВключитьТестовыйРежимПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
 										<LabelDecoration name="ШапкаНадписиApiKey" id="504">
 											<Title formatted="false">
 												<v8:item>
@@ -2610,6 +2616,7 @@
 				<Field>Объект.ApiKey</Field>
 				<Field>Объект.ClientID</Field>
 				<Field>Объект.ВидОперацииЗК</Field>
+				<Field>Объект.ВключитьТестовыйРежим</Field>
 				<Field>Объект.ВыбДоговор</Field>
 				<Field>Объект.ВыбЕдиницаИзмеренияУНФ</Field>
 				<Field>Объект.ВыбКонтрагент</Field>
