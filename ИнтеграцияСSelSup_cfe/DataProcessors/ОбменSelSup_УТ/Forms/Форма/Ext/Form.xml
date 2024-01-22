@@ -491,7 +491,89 @@
 							<ContextMenu name="ЗаказыКонтекстноеМеню" id="102"/>
 							<AutoCommandBar name="ЗаказыКоманднаяПанель" id="103">
 								<ChildItems>
+									<Popup name="ЗаказыГруппа7" id="328">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Выбор</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыГруппа7РасширеннаяПодсказка" id="329"/>
+										<ChildItems>
+											<Button name="ЗаказыВыбратьВсеФлажки" id="272">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ВыбратьВсеФлажки</CommandName>
+												<ExtendedTooltip name="ЗаказыВыбратьВсеФлажкиРасширеннаяПодсказка" id="273"/>
+											</Button>
+											<Button name="ЗаказыИсключитьВсеФлажки" id="274">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ИсключитьВсеФлажки</CommandName>
+												<ExtendedTooltip name="ЗаказыИсключитьВсеФлажкиРасширеннаяПодсказка" id="275"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+									<Button name="ЗаказыСформироватьЗаказыПокупателей" id="298">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СоздатьЗаказыПокупателей</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сформировать заказы</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыСформироватьЗаказыПокупателейРасширеннаяПодсказка" id="299"/>
+									</Button>
+									<Popup name="ЗаказыГруппа2" id="959">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Этикетки</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыГруппа2РасширеннаяПодсказка" id="960"/>
+									</Popup>
+									<Button name="ЗаказыОтправитьЗаказыНаСборку" id="961">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОтправитьЗаказыНаСборку</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>На сборку</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыОтправитьЗаказыНаСборкуРасширеннаяПодсказка" id="962"/>
+									</Button>
+									<Button name="ЗаказыПометитьЗаказыСобранными" id="963">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПометитьЗаказыСобранными</CommandName>
+										<Picture>
+											<xr:Abs>Picture.png</xr:Abs>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ЗаказыПометитьЗаказыСобраннымиРасширеннаяПодсказка" id="964"/>
+									</Button>
+									<Button name="ЗаказыОбновитьЭтикеткиЗаказов" id="692">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОбновитьЭтикеткиЗаказов</CommandName>
+										<Picture>
+											<xr:Abs>Picture.png</xr:Abs>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ЗаказыОбновитьЭтикеткиЗаказовРасширеннаяПодсказка" id="693"/>
+									</Button>
+									<Button name="ЗаказыПечатьЭтикетокЗаказов" id="652">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПечатьЭтикетокЗаказов</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Этикетки</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыПечатьЭтикетокЗаказовРасширеннаяПодсказка" id="653"/>
+									</Button>
 									<Popup name="ЗаказыГруппа11" id="667">
+										<Visible>false</Visible>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -516,54 +598,6 @@
 												<Visible>false</Visible>
 												<CommandName>Form.Command.СоздатьНоменклатуру</CommandName>
 												<ExtendedTooltip name="ЗаказыСоздатьНоменклатуруРасширеннаяПодсказка" id="583"/>
-											</Button>
-											<Button name="ЗаказыСформироватьЗаказыПокупателей" id="298">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.СоздатьЗаказыПокупателей</CommandName>
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Сформировать Заказы</v8:content>
-													</v8:item>
-												</Title>
-												<ExtendedTooltip name="ЗаказыСформироватьЗаказыПокупателейРасширеннаяПодсказка" id="299"/>
-											</Button>
-											<Button name="ЗаказыОбновитьЭтикеткиЗаказов" id="692">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ОбновитьЭтикеткиЗаказов</CommandName>
-												<ExtendedTooltip name="ЗаказыОбновитьЭтикеткиЗаказовРасширеннаяПодсказка" id="693"/>
-											</Button>
-											<Button name="ЗаказыПечатьЭтикетокЗаказов" id="652">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ПечатьЭтикетокЗаказов</CommandName>
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Распечатать этикетки заказов</v8:content>
-													</v8:item>
-												</Title>
-												<ExtendedTooltip name="ЗаказыПечатьЭтикетокЗаказовРасширеннаяПодсказка" id="653"/>
-											</Button>
-										</ChildItems>
-									</Popup>
-									<Popup name="ЗаказыГруппа7" id="328">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Выбор</v8:content>
-											</v8:item>
-										</Title>
-										<ExtendedTooltip name="ЗаказыГруппа7РасширеннаяПодсказка" id="329"/>
-										<ChildItems>
-											<Button name="ЗаказыВыбратьВсеФлажки" id="272">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ВыбратьВсеФлажки</CommandName>
-												<ExtendedTooltip name="ЗаказыВыбратьВсеФлажкиРасширеннаяПодсказка" id="273"/>
-											</Button>
-											<Button name="ЗаказыИсключитьВсеФлажки" id="274">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ИсключитьВсеФлажки</CommandName>
-												<ExtendedTooltip name="ЗаказыИсключитьВсеФлажкиРасширеннаяПодсказка" id="275"/>
 											</Button>
 										</ChildItems>
 									</Popup>
@@ -616,8 +650,16 @@
 									<ExtendedTooltip name="ЗаказыWarehouseIdРасширеннаяПодсказка" id="927"/>
 								</InputField>
 								<ColumnGroup name="ЗаказыГруппа6" id="306">
+									<Group>Horizontal</Group>
 									<ExtendedTooltip name="ЗаказыГруппа6РасширеннаяПодсказка" id="307"/>
 									<ChildItems>
+										<InputField name="ЗаказыДатаДоставки" id="953">
+											<DataPath>Объект.Заказы.ДатаДоставки</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ЗаказыДатаДоставкиКонтекстноеМеню" id="954"/>
+											<ExtendedTooltip name="ЗаказыДатаДоставкиРасширеннаяПодсказка" id="955"/>
+										</InputField>
 										<InputField name="ЗаказыДатаСоздания" id="300">
 											<DataPath>Объект.Заказы.ДатаСоздания</DataPath>
 											<EditMode>EnterOnInput</EditMode>
@@ -640,11 +682,11 @@
 									</ChildItems>
 								</ColumnGroup>
 								<ColumnGroup name="ЗаказыГруппа1" id="241">
+									<Group>Horizontal</Group>
 									<ExtendedTooltip name="ЗаказыГруппа1РасширеннаяПодсказка" id="242"/>
 									<ChildItems>
 										<InputField name="ЗаказыIDЗаказа" id="232">
 											<DataPath>Объект.Заказы.IDЗаказа</DataPath>
-											<Visible>false</Visible>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1300,8 +1342,8 @@
 											<Height>2</Height>
 											<CommandName>Form.Command.СопоставитьНоменклатуры</CommandName>
 											<Picture>
-												<xr:Ref>CommonPicture.SS_СоздатьСсылку</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
 											<Shape>Oval</Shape>
 											<ShapeRepresentation>WhenActive</ShapeRepresentation>
@@ -1314,8 +1356,8 @@
 											<Height>2</Height>
 											<CommandName>Form.Command.УдалитьСопоставлениеНоменклатур</CommandName>
 											<Picture>
-												<xr:Ref>CommonPicture.SS_УдалитьСсылку</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
 											<Shape>Oval</Shape>
 											<ShapeRepresentation>WhenActive</ShapeRepresentation>
@@ -2496,6 +2538,12 @@
 											<DataPath>Объект.НалогообложениеНДС</DataPath>
 											<ContextMenu name="НалогообложениеНДСКонтекстноеМеню" id="334"/>
 											<ExtendedTooltip name="НалогообложениеНДСРасширеннаяПодсказка" id="335"/>
+										</InputField>
+										<InputField name="ВыбСкладПоУмолчанию" id="956">
+											<DataPath>Объект.ВыбСкладПоУмолчанию</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ВыбСкладПоУмолчаниюКонтекстноеМеню" id="957"/>
+											<ExtendedTooltip name="ВыбСкладПоУмолчаниюРасширеннаяПодсказка" id="958"/>
 										</InputField>
 									</ChildItems>
 								</Page>
@@ -3695,6 +3743,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьТоварыНаСайте</Action>
+		</Command>
+		<Command name="ОтправитьЗаказыНаСборку" id="69">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить заказы на сборку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить заказы на сборку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьЗаказыНаСборку</Action>
+		</Command>
+		<Command name="ПометитьЗаказыСобранными" id="70">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить заказы собранными</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить заказы собранными</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПометитьЗаказыСобранными</Action>
 		</Command>
 	</Commands>
 </Form>
