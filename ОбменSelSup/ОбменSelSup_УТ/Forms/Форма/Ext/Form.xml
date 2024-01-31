@@ -7,6 +7,7 @@
 		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="NavigationProcessing">ОбработкаПерехода</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -491,7 +492,87 @@
 							<ContextMenu name="ЗаказыКонтекстноеМеню" id="102"/>
 							<AutoCommandBar name="ЗаказыКоманднаяПанель" id="103">
 								<ChildItems>
+									<Popup name="ЗаказыГруппа7" id="328">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Выбор</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыГруппа7РасширеннаяПодсказка" id="329"/>
+										<ChildItems>
+											<Button name="ЗаказыВыбратьВсеФлажки" id="272">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ВыбратьВсеФлажки</CommandName>
+												<ExtendedTooltip name="ЗаказыВыбратьВсеФлажкиРасширеннаяПодсказка" id="273"/>
+											</Button>
+											<Button name="ЗаказыИсключитьВсеФлажки" id="274">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ИсключитьВсеФлажки</CommandName>
+												<ExtendedTooltip name="ЗаказыИсключитьВсеФлажкиРасширеннаяПодсказка" id="275"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+									<Button name="ЗаказыСформироватьЗаказыПокупателей" id="298">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СоздатьЗаказыПокупателей</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сформировать заказы</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыСформироватьЗаказыПокупателейРасширеннаяПодсказка" id="299"/>
+									</Button>
+									<Popup name="ЗаказыГруппа2" id="959">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Этикетки</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыГруппа2РасширеннаяПодсказка" id="960"/>
+									</Popup>
+									<Button name="ЗаказыОтправитьЗаказыНаСборку" id="961">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОтправитьЗаказыНаСборку</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>На сборку</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаказыОтправитьЗаказыНаСборкуРасширеннаяПодсказка" id="962"/>
+									</Button>
+									<Button name="ЗаказыПометитьЗаказыСобранными" id="963">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПометитьЗаказыСобранными</CommandName>
+										<Picture>
+											<xr:Abs>Picture.png</xr:Abs>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ЗаказыПометитьЗаказыСобраннымиРасширеннаяПодсказка" id="964"/>
+									</Button>
+									<Button name="ЗаказыОбновитьЭтикеткиЗаказов" id="692">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОбновитьЭтикеткиЗаказов</CommandName>
+										<Picture>
+											<xr:Abs>Picture.png</xr:Abs>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ЗаказыОбновитьЭтикеткиЗаказовРасширеннаяПодсказка" id="693"/>
+									</Button>
+									<Button name="ЗаказыПечатьЭтикетокЗаказов" id="652">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПечатьЭтикетокЗаказов</CommandName>
+										<Picture>
+											<xr:Abs>Picture.png</xr:Abs>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ЗаказыПечатьЭтикетокЗаказовРасширеннаяПодсказка" id="653"/>
+									</Button>
 									<Popup name="ЗаказыГруппа11" id="667">
+										<Visible>false</Visible>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -516,54 +597,6 @@
 												<Visible>false</Visible>
 												<CommandName>Form.Command.СоздатьНоменклатуру</CommandName>
 												<ExtendedTooltip name="ЗаказыСоздатьНоменклатуруРасширеннаяПодсказка" id="583"/>
-											</Button>
-											<Button name="ЗаказыСформироватьЗаказыПокупателей" id="298">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.СоздатьЗаказыПокупателей</CommandName>
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Сформировать Заказы</v8:content>
-													</v8:item>
-												</Title>
-												<ExtendedTooltip name="ЗаказыСформироватьЗаказыПокупателейРасширеннаяПодсказка" id="299"/>
-											</Button>
-											<Button name="ЗаказыОбновитьЭтикеткиЗаказов" id="692">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ОбновитьЭтикеткиЗаказов</CommandName>
-												<ExtendedTooltip name="ЗаказыОбновитьЭтикеткиЗаказовРасширеннаяПодсказка" id="693"/>
-											</Button>
-											<Button name="ЗаказыПечатьЭтикетокЗаказов" id="652">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ПечатьЭтикетокЗаказов</CommandName>
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Распечатать этикетки заказов</v8:content>
-													</v8:item>
-												</Title>
-												<ExtendedTooltip name="ЗаказыПечатьЭтикетокЗаказовРасширеннаяПодсказка" id="653"/>
-											</Button>
-										</ChildItems>
-									</Popup>
-									<Popup name="ЗаказыГруппа7" id="328">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Выбор</v8:content>
-											</v8:item>
-										</Title>
-										<ExtendedTooltip name="ЗаказыГруппа7РасширеннаяПодсказка" id="329"/>
-										<ChildItems>
-											<Button name="ЗаказыВыбратьВсеФлажки" id="272">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ВыбратьВсеФлажки</CommandName>
-												<ExtendedTooltip name="ЗаказыВыбратьВсеФлажкиРасширеннаяПодсказка" id="273"/>
-											</Button>
-											<Button name="ЗаказыИсключитьВсеФлажки" id="274">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ИсключитьВсеФлажки</CommandName>
-												<ExtendedTooltip name="ЗаказыИсключитьВсеФлажкиРасширеннаяПодсказка" id="275"/>
 											</Button>
 										</ChildItems>
 									</Popup>
@@ -611,13 +644,22 @@
 								</LabelField>
 								<InputField name="ЗаказыWarehouseId" id="925">
 									<DataPath>Объект.Заказы.warehouseId</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ЗаказыWarehouseIdКонтекстноеМеню" id="926"/>
 									<ExtendedTooltip name="ЗаказыWarehouseIdРасширеннаяПодсказка" id="927"/>
 								</InputField>
 								<ColumnGroup name="ЗаказыГруппа6" id="306">
+									<Group>Horizontal</Group>
 									<ExtendedTooltip name="ЗаказыГруппа6РасширеннаяПодсказка" id="307"/>
 									<ChildItems>
+										<InputField name="ЗаказыДатаДоставки" id="953">
+											<DataPath>Объект.Заказы.ДатаДоставки</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ЗаказыДатаДоставкиКонтекстноеМеню" id="954"/>
+											<ExtendedTooltip name="ЗаказыДатаДоставкиРасширеннаяПодсказка" id="955"/>
+										</InputField>
 										<InputField name="ЗаказыДатаСоздания" id="300">
 											<DataPath>Объект.Заказы.ДатаСоздания</DataPath>
 											<EditMode>EnterOnInput</EditMode>
@@ -640,6 +682,7 @@
 									</ChildItems>
 								</ColumnGroup>
 								<ColumnGroup name="ЗаказыГруппа1" id="241">
+									<Group>Horizontal</Group>
 									<ExtendedTooltip name="ЗаказыГруппа1РасширеннаяПодсказка" id="242"/>
 									<ChildItems>
 										<InputField name="ЗаказыIDЗаказа" id="232">
@@ -819,6 +862,88 @@
 										</InputField>
 									</ChildItems>
 								</ColumnGroup>
+							</ChildItems>
+						</Table>
+						<Table name="ЗаказыФайлыДляСкачивания" id="965">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ФайлыДляСкачивания</DataPath>
+							<RowsPicture>
+								<xr:Abs>RowsPicture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ЗаказыФайлыДляСкачиванияКонтекстноеМеню" id="966"/>
+							<AutoCommandBar name="ЗаказыФайлыДляСкачиванияКоманднаяПанель" id="967">
+								<ChildItems>
+									<Button name="ФайлыДляСкачиванияЗакрыть" id="984">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.ЗакрытьФайлыДляСкачивания</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.AppearanceCross</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Закрыть</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ФайлыДляСкачиванияЗакрытьРасширеннаяПодсказка" id="985"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ЗаказыФайлыДляСкачиванияРасширеннаяПодсказка" id="968"/>
+							<SearchStringAddition name="ЗаказыФайлыДляСкачиванияСтрокаПоиска" id="969">
+								<AdditionSource>
+									<Item>ЗаказыФайлыДляСкачивания</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаказыФайлыДляСкачиванияСтрокаПоискаКонтекстноеМеню" id="970"/>
+								<ExtendedTooltip name="ЗаказыФайлыДляСкачиванияСтрокаПоискаРасширеннаяПодсказка" id="971"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЗаказыФайлыДляСкачиванияСостояниеПросмотра" id="972">
+								<AdditionSource>
+									<Item>ЗаказыФайлыДляСкачивания</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаказыФайлыДляСкачиванияСостояниеПросмотраКонтекстноеМеню" id="973"/>
+								<ExtendedTooltip name="ЗаказыФайлыДляСкачиванияСостояниеПросмотраРасширеннаяПодсказка" id="974"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЗаказыФайлыДляСкачиванияУправлениеПоиском" id="975">
+								<AdditionSource>
+									<Item>ЗаказыФайлыДляСкачивания</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаказыФайлыДляСкачиванияУправлениеПоискомКонтекстноеМеню" id="976"/>
+								<ExtendedTooltip name="ЗаказыФайлыДляСкачиванияУправлениеПоискомРасширеннаяПодсказка" id="977"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ФайлыДляСкачиванияВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ЗаказыФайлыНомерСтроки" id="978">
+									<DataPath>Объект.ФайлыДляСкачивания.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗаказыФайлыНомерСтрокиКонтекстноеМеню" id="979"/>
+									<ExtendedTooltip name="ЗаказыФайлыНомерСтрокиРасширеннаяПодсказка" id="980"/>
+								</LabelField>
+								<InputField name="ЗаказыФайлыURL" id="981">
+									<DataPath>Объект.ФайлыДляСкачивания.URL</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Скачать</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<CellHyperlink>true</CellHyperlink>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ЗаказыФайлыURLКонтекстноеМеню" id="982"/>
+									<ExtendedTooltip name="ЗаказыФайлыURLРасширеннаяПодсказка" id="983"/>
+								</InputField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
@@ -1300,8 +1425,8 @@
 											<Height>2</Height>
 											<CommandName>Form.Command.СопоставитьНоменклатуры</CommandName>
 											<Picture>
-												<xr:Ref>CommonPicture.SS_СоздатьСсылку</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
 											<Shape>Oval</Shape>
 											<ShapeRepresentation>WhenActive</ShapeRepresentation>
@@ -1314,8 +1439,8 @@
 											<Height>2</Height>
 											<CommandName>Form.Command.УдалитьСопоставлениеНоменклатур</CommandName>
 											<Picture>
-												<xr:Ref>CommonPicture.SS_УдалитьСсылку</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
 											<Shape>Oval</Shape>
 											<ShapeRepresentation>WhenActive</ShapeRepresentation>
@@ -1681,38 +1806,6 @@
 									<ContextMenu name="ТоварыID_SelSupКонтекстноеМеню" id="193"/>
 									<ExtendedTooltip name="ТоварыID_SelSupРасширеннаяПодсказка" id="194"/>
 								</InputField>
-								<InputField name="ТоварыОстатокSelSup" id="84">
-									<DataPath>Объект.Товары.ОстатокSelSup</DataPath>
-									<Visible>false</Visible>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Остаток SelSup (в наличии)</v8:content>
-										</v8:item>
-									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ТоварыОстатокSelSupКонтекстноеМеню" id="85"/>
-									<ExtendedTooltip name="ТоварыОстатокSelSupРасширеннаяПодсказка" id="86"/>
-								</InputField>
-								<ColumnGroup name="ТоварыГруппа4" id="188">
-									<ExtendedTooltip name="ТоварыГруппа4РасширеннаяПодсказка" id="189"/>
-									<ChildItems>
-										<InputField name="ТоварыКолВоОжидаемыхКПоставкеSelSup" id="182">
-											<DataPath>Объект.Товары.ОжидаетсяКПоставкеSelSup</DataPath>
-											<Visible>false</Visible>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ТоварыКолВоОжидаемыхКПоставкеSelSupКонтекстноеМеню" id="183"/>
-											<ExtendedTooltip name="ТоварыКолВоОжидаемыхКПоставкеSelSupРасширеннаяПодсказка" id="184"/>
-										</InputField>
-										<InputField name="ТоварыКолВоВРезервеSelSup" id="185">
-											<DataPath>Объект.Товары.ВРезервеSelSup</DataPath>
-											<Visible>false</Visible>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ТоварыКолВоВРезервеSelSupКонтекстноеМеню" id="186"/>
-											<ExtendedTooltip name="ТоварыКолВоВРезервеSelSupРасширеннаяПодсказка" id="187"/>
-										</InputField>
-									</ChildItems>
-								</ColumnGroup>
 								<InputField name="ТоварыСклад" id="656">
 									<DataPath>Объект.Товары.Склад</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -1732,6 +1825,18 @@
 									<ContextMenu name="ТоварыОстатокКонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="ТоварыОстатокРасширеннаяПодсказка" id="89"/>
 								</InputField>
+								<InputField name="ТоварыОстатокSelSup" id="84">
+									<DataPath>Объект.Товары.ОстатокSelSup</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Остаток SelSup (в наличии)</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыОстатокSelSupКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ТоварыОстатокSelSupРасширеннаяПодсказка" id="86"/>
+								</InputField>
 								<InputField name="ТоварыРезерв1С" id="177">
 									<DataPath>Объект.Товары.Резерв1С</DataPath>
 									<Visible>false</Visible>
@@ -1745,6 +1850,24 @@
 									<ContextMenu name="ТоварыРезерв1СКонтекстноеМеню" id="178"/>
 									<ExtendedTooltip name="ТоварыРезерв1СРасширеннаяПодсказка" id="179"/>
 								</InputField>
+								<ColumnGroup name="ТоварыГруппа4" id="188">
+									<ExtendedTooltip name="ТоварыГруппа4РасширеннаяПодсказка" id="189"/>
+									<ChildItems>
+										<InputField name="ТоварыКолВоОжидаемыхКПоставкеSelSup" id="182">
+											<DataPath>Объект.Товары.ОжидаетсяКПоставкеSelSup</DataPath>
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ТоварыКолВоОжидаемыхКПоставкеSelSupКонтекстноеМеню" id="183"/>
+											<ExtendedTooltip name="ТоварыКолВоОжидаемыхКПоставкеSelSupРасширеннаяПодсказка" id="184"/>
+										</InputField>
+										<InputField name="ТоварыКолВоВРезервеSelSup" id="185">
+											<DataPath>Объект.Товары.ВРезервеSelSup</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ТоварыКолВоВРезервеSelSupКонтекстноеМеню" id="186"/>
+											<ExtendedTooltip name="ТоварыКолВоВРезервеSelSupРасширеннаяПодсказка" id="187"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
 								<ColumnGroup name="ТоварыГруппа6" id="339">
 									<ExtendedTooltip name="ТоварыГруппа6РасширеннаяПодсказка" id="340"/>
 									<ChildItems>
@@ -1757,7 +1880,6 @@
 										</InputField>
 										<InputField name="ТоварыЦена1С" id="344">
 											<DataPath>Объект.Товары.Цена1С</DataPath>
-											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ТоварыЦена1СКонтекстноеМеню" id="345"/>
 											<ExtendedTooltip name="ТоварыЦена1СРасширеннаяПодсказка" id="346"/>
@@ -1807,15 +1929,22 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаКомплектацияЗаказовРасширеннаяПодсказка" id="782"/>
 					<ChildItems>
-						<UsualGroup name="Группа14" id="826">
+						<UsualGroup name="ГруппаСборкиЗаказа" id="826">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Отсканируйте штрих-код товара: Сборка заказа</v8:content>
+									<v8:content>Отсканируйте штрих-код товара:</v8:content>
 								</v8:item>
 							</Title>
+							<TitleFont ref="style:NormalTextFont" height="22" kind="StyleItem" scale="100"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сборки заказа</v8:content>
+								</v8:item>
+							</ToolTip>
 							<Representation>None</Representation>
-							<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="827"/>
+							<ExtendedTooltip name="ГруппаСборкиЗаказаРасширеннаяПодсказка" id="827"/>
 							<ChildItems>
 								<PictureDecoration name="ДекорацияВводШтрихкода" id="828">
 									<Width>2</Width>
@@ -1869,6 +1998,22 @@
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ТоварыПоискПоШтрихкодуExtendedTooltip" id="809"/>
+									</Button>
+									<Button name="КомплектацияОперацияСброса" id="1007">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.КомплектацияОперацияСброса</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.AppearanceFlagGreen</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сбросить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КомплектацияОперацияСбросаРасширеннаяПодсказка" id="1008"/>
 									</Button>
 								</ChildItems>
 							</AutoCommandBar>
@@ -1924,6 +2069,88 @@
 								</InputField>
 							</ChildItems>
 						</Table>
+						<Table name="КомплектацияФайлыДляСкачивания" id="986">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ФайлыДляСкачивания</DataPath>
+							<RowsPicture>
+								<xr:Abs>RowsPicture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КомплектацияФайлыДляСкачиванияКонтекстноеМеню" id="987"/>
+							<AutoCommandBar name="КомплектацияФайлыДляСкачиванияКоманднаяПанель" id="988">
+								<ChildItems>
+									<Button name="КомплектацияФайлыДляСкачиванияЗакрыть" id="1005">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.ЗакрытьКомплектацияФайлыДляСкачивания</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.AppearanceCross</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Закрыть</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияЗакрытьРасширеннаяПодсказка" id="1006"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияРасширеннаяПодсказка" id="989"/>
+							<SearchStringAddition name="КомплектацияФайлыДляСкачиванияСтрокаПоиска" id="990">
+								<AdditionSource>
+									<Item>КомплектацияФайлыДляСкачивания</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияФайлыДляСкачиванияСтрокаПоискаКонтекстноеМеню" id="991"/>
+								<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияСтрокаПоискаРасширеннаяПодсказка" id="992"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомплектацияФайлыДляСкачиванияСостояниеПросмотра" id="993">
+								<AdditionSource>
+									<Item>КомплектацияФайлыДляСкачивания</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияФайлыДляСкачиванияСостояниеПросмотраКонтекстноеМеню" id="994"/>
+								<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияСостояниеПросмотраРасширеннаяПодсказка" id="995"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомплектацияФайлыДляСкачиванияУправлениеПоиском" id="996">
+								<AdditionSource>
+									<Item>КомплектацияФайлыДляСкачивания</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияФайлыДляСкачиванияУправлениеПоискомКонтекстноеМеню" id="997"/>
+								<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияУправлениеПоискомРасширеннаяПодсказка" id="998"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КомплектацияФайлыДляСкачиванияВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ЗаказыФайлыНомерСтроки1" id="999">
+									<DataPath>Объект.ФайлыДляСкачивания.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗаказыФайлыНомерСтроки1КонтекстноеМеню" id="1000"/>
+									<ExtendedTooltip name="ЗаказыФайлыНомерСтроки1РасширеннаяПодсказка" id="1001"/>
+								</LabelField>
+								<InputField name="ЗаказыФайлыURL1" id="1002">
+									<DataPath>Объект.ФайлыДляСкачивания.URL</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Скачать</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<CellHyperlink>true</CellHyperlink>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ЗаказыФайлыURL1КонтекстноеМеню" id="1003"/>
+									<ExtendedTooltip name="ЗаказыФайлыURL1РасширеннаяПодсказка" id="1004"/>
+								</InputField>
+							</ChildItems>
+						</Table>
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаНастройки" id="151">
@@ -1972,6 +2199,15 @@
 									</Title>
 									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="670"/>
 									<ChildItems>
+										<CheckBoxField name="ВключитьТестовыйРежим" id="950">
+											<DataPath>Объект.ВключитьТестовыйРежим</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ВключитьТестовыйРежимКонтекстноеМеню" id="951"/>
+											<ExtendedTooltip name="ВключитьТестовыйРежимРасширеннаяПодсказка" id="952"/>
+											<Events>
+												<Event name="OnChange">ВключитьТестовыйРежимПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
 										<LabelDecoration name="ШапкаНадписиApiKey" id="504">
 											<Title formatted="false">
 												<v8:item>
@@ -2491,6 +2727,12 @@
 											<ContextMenu name="НалогообложениеНДСКонтекстноеМеню" id="334"/>
 											<ExtendedTooltip name="НалогообложениеНДСРасширеннаяПодсказка" id="335"/>
 										</InputField>
+										<InputField name="ВыбСкладПоУмолчанию" id="956">
+											<DataPath>Объект.ВыбСкладПоУмолчанию</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ВыбСкладПоУмолчаниюКонтекстноеМеню" id="957"/>
+											<ExtendedTooltip name="ВыбСкладПоУмолчаниюРасширеннаяПодсказка" id="958"/>
+										</InputField>
 									</ChildItems>
 								</Page>
 							</ChildItems>
@@ -2602,7 +2844,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DataProcessorObject.ОбменSelSup_УТ</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ОбменSelSup_УТ</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Save>
@@ -2610,11 +2852,13 @@
 				<Field>Объект.ApiKey</Field>
 				<Field>Объект.ClientID</Field>
 				<Field>Объект.ВидОперацииЗК</Field>
+				<Field>Объект.ВключитьТестовыйРежим</Field>
 				<Field>Объект.ВыбДоговор</Field>
 				<Field>Объект.ВыбЕдиницаИзмеренияУНФ</Field>
 				<Field>Объект.ВыбКонтрагент</Field>
 				<Field>Объект.ВыбМенеджер</Field>
 				<Field>Объект.ВыбСклад</Field>
+				<Field>Объект.ВыбСкладПоУмолчанию</Field>
 				<Field>Объект.ВыбСкладРеал</Field>
 				<Field>Объект.ВыбСоглашение</Field>
 				<Field>Объект.ВыбУпаковка</Field>
@@ -2643,6 +2887,7 @@
 						</Type>
 					</Column>
 				</AdditionalColumns>
+				<AdditionalColumns table="Объект.ФайлыДляСкачивания"/>
 			</Columns>
 		</Attribute>
 		<Attribute name="АдресКартинки" id="2">
@@ -3688,6 +3933,111 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьТоварыНаСайте</Action>
+		</Command>
+		<Command name="ОтправитьЗаказыНаСборку" id="69">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить заказы на сборку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить заказы на сборку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьЗаказыНаСборку</Action>
+		</Command>
+		<Command name="ПометитьЗаказыСобранными" id="70">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить заказы собранными</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить заказы собранными</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПометитьЗаказыСобранными</Action>
+		</Command>
+		<Command name="ЗакрытьФайлыДляСкачивания" id="71">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть файлы для скачивания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть файлы для скачивания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗакрытьФайлыДляСкачивания</Action>
+		</Command>
+		<Command name="КомплектацияФайлыДляСкачиванияВыбор" id="72">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комплектация файлы для скачивания выбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комплектация файлы для скачивания выбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомплектацияФайлыДляСкачиванияВыбор</Action>
+		</Command>
+		<Command name="ЗакрытьКомплектацияФайлыДляСкачивания" id="73">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть комплектация файлы для скачивания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть комплектация файлы для скачивания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗакрытьКомплектацияФайлыДляСкачивания</Action>
+		</Command>
+		<Command name="ФайлыДляСкачиванияВыбор" id="74">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файлы для скачивания выбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файлы для скачивания выбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ФайлыДляСкачиванияВыбор</Action>
+		</Command>
+		<Command name="КомплектацияОперацияСброса" id="75">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комплектация операция сброса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комплектация операция сброса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомплектацияОперацияСброса</Action>
 		</Command>
 	</Commands>
 </Form>
