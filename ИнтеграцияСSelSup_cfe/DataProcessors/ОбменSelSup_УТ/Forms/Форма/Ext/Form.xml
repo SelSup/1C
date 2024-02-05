@@ -725,6 +725,13 @@
 									<ContextMenu name="ЗаказыНомерОтправленияКонтекстноеМеню" id="357"/>
 									<ExtendedTooltip name="ЗаказыНомерОтправленияРасширеннаяПодсказка" id="358"/>
 								</InputField>
+								<InputField name="ЗаказыСклад" id="1019">
+									<DataPath>Объект.Заказы.Склад</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ЗаказыСкладКонтекстноеМеню" id="1020"/>
+									<ExtendedTooltip name="ЗаказыСкладРасширеннаяПодсказка" id="1021"/>
+								</InputField>
 								<InputField name="ЗаказыМаркетплейс" id="662">
 									<DataPath>Объект.Заказы.Маркетплейс</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -1452,22 +1459,6 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="691"/>
 									<ChildItems>
-										<PictureField name="ФайлКартинки" id="778">
-											<DataPath>АдресКартинки</DataPath>
-											<Visible>false</Visible>
-											<NonselectedPictureText>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Добавить изображение</v8:content>
-												</v8:item>
-											</NonselectedPictureText>
-											<ValuesPicture>
-												<xr:Abs>ValuesPicture.png</xr:Abs>
-												<xr:LoadTransparent>false</xr:LoadTransparent>
-											</ValuesPicture>
-											<ContextMenu name="ФайлКартинкиКонтекстноеМеню" id="779"/>
-											<ExtendedTooltip name="ФайлКартинкиРасширеннаяПодсказка" id="780"/>
-										</PictureField>
 										<Table name="Товары1C" id="552">
 											<SelectionMode>SingleRow</SelectionMode>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -1590,6 +1581,50 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ИмпортТоваров" id="1014">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Импорт товаров</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Импорт товаров</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ИмпортТоваровРасширеннаяПодсказка" id="1015"/>
+					<ChildItems>
+						<InputField name="ОрганизацияИТ" id="1016">
+							<DataPath>Объект.ОрганизацияИТ</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Организация</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОрганизацияИТКонтекстноеМеню" id="1017"/>
+							<ExtendedTooltip name="ОрганизацияИТРасширеннаяПодсказка" id="1018"/>
+						</InputField>
+						<InputField name="ФайлИмпорта" id="1011">
+							<DataPath>ФайлИмпорта</DataPath>
+							<ChoiceButton>true</ChoiceButton>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФайлИмпортаКонтекстноеМеню" id="1012"/>
+							<ExtendedTooltip name="ФайлИмпортаРасширеннаяПодсказка" id="1013"/>
+							<Events>
+								<Event name="StartChoice">ФайлИмпортаНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<Button name="КнопкаКомандаТест" id="1009">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗапуститьОбработчикИмпортаТоваров</CommandName>
+							<ExtendedTooltip name="КнопкаКомандаТестРасширеннаяПодсказка" id="1010"/>
+						</Button>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаТовары" id="60">
@@ -2684,7 +2719,6 @@
 										</Table>
 										<InputField name="ВыбСкладРеал" id="311">
 											<DataPath>Объект.ВыбСкладРеал</DataPath>
-											<Visible>false</Visible>
 											<ContextMenu name="ВыбСкладРеалКонтекстноеМеню" id="312"/>
 											<ExtendedTooltip name="ВыбСкладРеалРасширеннаяПодсказка" id="313"/>
 										</InputField>
@@ -2726,12 +2760,6 @@
 											<DataPath>Объект.НалогообложениеНДС</DataPath>
 											<ContextMenu name="НалогообложениеНДСКонтекстноеМеню" id="334"/>
 											<ExtendedTooltip name="НалогообложениеНДСРасширеннаяПодсказка" id="335"/>
-										</InputField>
-										<InputField name="ВыбСкладПоУмолчанию" id="956">
-											<DataPath>Объект.ВыбСкладПоУмолчанию</DataPath>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ВыбСкладПоУмолчаниюКонтекстноеМеню" id="957"/>
-											<ExtendedTooltip name="ВыбСкладПоУмолчаниюРасширеннаяПодсказка" id="958"/>
 										</InputField>
 									</ChildItems>
 								</Page>
@@ -2848,6 +2876,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Save>
+				<Field>1/0:75223174-97ff-485c-87d3-1bd3294e1baa</Field>
 				<Field>1/0:ac0afd36-cc20-4b5b-b082-e3b0039d24b7</Field>
 				<Field>Объект.ApiKey</Field>
 				<Field>Объект.ClientID</Field>
@@ -2858,7 +2887,6 @@
 				<Field>Объект.ВыбКонтрагент</Field>
 				<Field>Объект.ВыбМенеджер</Field>
 				<Field>Объект.ВыбСклад</Field>
-				<Field>Объект.ВыбСкладПоУмолчанию</Field>
 				<Field>Объект.ВыбСкладРеал</Field>
 				<Field>Объект.ВыбСоглашение</Field>
 				<Field>Объект.ВыбУпаковка</Field>
@@ -2890,17 +2918,6 @@
 				<AdditionalColumns table="Объект.ФайлыДляСкачивания"/>
 			</Columns>
 		</Attribute>
-		<Attribute name="АдресКартинки" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адрес картинки</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8ui:Picture</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="ПравоРегистрацииШтрихкодовНоменклатурыДоступно" id="3">
 			<Title>
 				<v8:item>
@@ -2910,6 +2927,21 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ФайлИмпорта" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файл импорта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -4038,6 +4070,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомплектацияОперацияСброса</Action>
+		</Command>
+		<Command name="КомандаТест" id="76">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда тест</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда тест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаТест</Action>
+		</Command>
+		<Command name="ЗапуститьОбработчикИмпортаТоваров" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обработчик импорта товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьОбработчикИмпортаТоваров</Action>
 		</Command>
 	</Commands>
 </Form>
