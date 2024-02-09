@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -38,6 +38,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="217"/>
 							<ChildItems>
@@ -87,10 +88,12 @@
 								</InputField>
 								<UsualGroup name="Группа9" id="728">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="729"/>
 									<ChildItems>
 										<UsualGroup name="Группа12" id="768">
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="769"/>
 											<ChildItems>
@@ -259,6 +262,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="Группа13" id="816">
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="817"/>
 											<ChildItems>
@@ -276,6 +280,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="Группа10" id="764">
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="765"/>
 											<ChildItems>
@@ -382,6 +387,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="Группа11" id="766">
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="767"/>
 											<ChildItems>
@@ -978,6 +984,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="681"/>
 							<ChildItems>
@@ -1022,9 +1029,20 @@
 										<Event name="OnChange">СозданыВМаркетплейсеПриИзменении</Event>
 									</Events>
 								</CheckBoxField>
+								<InputField name="СхемаСопоставленияТовара" id="1037">
+									<DataPath>Объект.СхемаСопоставленияТовара</DataPath>
+									<DropListButton>true</DropListButton>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СхемаСопоставленияТовараКонтекстноеМеню" id="1038"/>
+									<ExtendedTooltip name="СхемаСопоставленияТовараРасширеннаяПодсказка" id="1039"/>
+									<Events>
+										<Event name="OnChange">СхемаСопоставленияТовараПриИзменении</Event>
+									</Events>
+								</InputField>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа15" id="848">
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа15РасширеннаяПодсказка" id="849"/>
@@ -1225,6 +1243,7 @@
 								</v8:item>
 							</ToolTip>
 							<VerticalAlign>Center</VerticalAlign>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСопоставленияТоваровРасширеннаяПодсказка" id="518"/>
@@ -1401,15 +1420,30 @@
 										</InputField>
 										<InputField name="СписокТоваровSelSupArticle" id="671">
 											<DataPath>Объект.ТоварыSelSup.article</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Артикул</v8:content>
-												</v8:item>
-											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="СписокТоваровSelSupArticleКонтекстноеМеню" id="672"/>
 											<ExtendedTooltip name="СписокТоваровSelSupArticleРасширеннаяПодсказка" id="673"/>
+										</InputField>
+										<InputField name="ТоварыSelSupOzonArticle" id="1028">
+											<DataPath>Объект.ТоварыSelSup.ozonArticle</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupOzonArticleКонтекстноеМеню" id="1029"/>
+											<ExtendedTooltip name="ТоварыSelSupOzonArticleРасширеннаяПодсказка" id="1030"/>
+										</InputField>
+										<InputField name="ТоварыSelSupSberArticle" id="1031">
+											<DataPath>Объект.ТоварыSelSup.sberArticle</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupSberArticleКонтекстноеМеню" id="1032"/>
+											<ExtendedTooltip name="ТоварыSelSupSberArticleРасширеннаяПодсказка" id="1033"/>
+										</InputField>
+										<InputField name="ТоварыSelSupYandexMarketShopSku" id="1034">
+											<DataPath>Объект.ТоварыSelSup.yandexMarketShopSku</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupYandexMarketShopSkuКонтекстноеМеню" id="1035"/>
+											<ExtendedTooltip name="ТоварыSelSupYandexMarketShopSkuРасширеннаяПодсказка" id="1036"/>
 										</InputField>
 										<InputField name="СписокТоваровSelSupOneCId" id="547">
 											<DataPath>Объект.ТоварыSelSup.oneCId</DataPath>
@@ -1422,6 +1456,7 @@
 								</Table>
 								<UsualGroup name="Группа17" id="896">
 									<HorizontalSpacing>None</HorizontalSpacing>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа17РасширеннаяПодсказка" id="897"/>
 									<ChildItems>
@@ -1456,6 +1491,7 @@
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа8" id="690">
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="691"/>
 									<ChildItems>
@@ -1644,6 +1680,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="160"/>
 							<ChildItems>
@@ -1978,6 +2015,7 @@
 									<v8:content>Группа сборки заказа</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаСборкиЗаказаРасширеннаяПодсказка" id="827"/>
 							<ChildItems>
@@ -2210,6 +2248,7 @@
 									<v8:content>Отборы для вариантов: Настройка справочников и заказов</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="Группа18РасширеннаяПодсказка" id="909"/>
 							<ChildItems>
@@ -2761,6 +2800,18 @@
 											<ContextMenu name="НалогообложениеНДСКонтекстноеМеню" id="334"/>
 											<ExtendedTooltip name="НалогообложениеНДСРасширеннаяПодсказка" id="335"/>
 										</InputField>
+										<InputField name="ВыбПричинаОтменыЗаказа" id="1022">
+											<DataPath>Объект.ВыбПричинаОтменыЗаказа</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ВыбПричинаОтменыЗаказаКонтекстноеМеню" id="1023"/>
+											<ExtendedTooltip name="ВыбПричинаОтменыЗаказаРасширеннаяПодсказка" id="1024"/>
+										</InputField>
+										<InputField name="ВыбПричинаОтменыЗаказаПокупателем" id="1025">
+											<DataPath>Объект.ВыбПричинаОтменыЗаказаПокупателем</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ВыбПричинаОтменыЗаказаПокупателемКонтекстноеМеню" id="1026"/>
+											<ExtendedTooltip name="ВыбПричинаОтменыЗаказаПокупателемРасширеннаяПодсказка" id="1027"/>
+										</InputField>
 									</ChildItems>
 								</Page>
 							</ChildItems>
@@ -2813,6 +2864,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="СтраницаЗаполнениеУНФРасширеннаяПодсказка" id="458"/>
 			<ChildItems>
 				<InputField name="Организация1" id="459">
@@ -2897,6 +2949,7 @@
 				<Field>Объект.Организация</Field>
 				<Field>Объект.СпособДоставки</Field>
 				<Field>Объект.СтатусОтправления</Field>
+				<Field>Объект.СхемаСопоставленияТовара</Field>
 				<Field>Объект.ТЧОрганизации</Field>
 				<Field>Объект.ТЧРасширеннаяНастройкаЗаказов</Field>
 				<Field>Объект.ЦенаВключаетНДС</Field>
