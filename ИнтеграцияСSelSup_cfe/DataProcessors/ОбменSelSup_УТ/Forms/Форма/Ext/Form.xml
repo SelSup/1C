@@ -53,6 +53,9 @@
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
 									<ContextMenu name="ДатаДоставкиКонтекстноеМеню" id="580"/>
 									<ExtendedTooltip name="ДатаДоставкиРасширеннаяПодсказка" id="581"/>
+									<Events>
+										<Event name="OnChange">ДатаДоставкиПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="ДатаНачала" id="223">
 									<DataPath>Объект.ДатаНачала</DataPath>
@@ -1309,6 +1312,16 @@
 												<CommandName>Form.Command.ОбновитьСписокТоваровSelSup</CommandName>
 												<ExtendedTooltip name="ТоварыSelSupОбновитьСписокТоваровРасширеннаяПодсказка" id="901"/>
 											</Button>
+											<Button name="КнопкаОбновитьСписокТоваровSelSup" id="1046">
+												<Type>CommandBarButton</Type>
+												<Representation>Picture</Representation>
+												<CommandName>Form.Command.ОбновитьСписокТоваровSelSup</CommandName>
+												<Picture>
+													<xr:Ref>StdPicture.Reread</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="КнопкаОбновитьСписокТоваровSelSupРасширеннаяПодсказка" id="1047"/>
+											</Button>
 										</ChildItems>
 									</AutoCommandBar>
 									<ExtendedTooltip name="ТоварыSelSupРасширеннаяПодсказка" id="522"/>
@@ -1634,6 +1647,174 @@
 					</ToolTip>
 					<ExtendedTooltip name="ИмпортТоваровРасширеннаяПодсказка" id="1015"/>
 					<ChildItems>
+						<UsualGroup name="Группа16" id="1064">
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа16РасширеннаяПодсказка" id="1065"/>
+							<ChildItems>
+								<Button name="ИзменитьServicesImport_WILDBERRIES" id="1066">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_WILDBERRIES</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>WILDBERRIES</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_WILDBERRIESРасширеннаяПодсказка" id="1067"/>
+								</Button>
+								<Button name="ИзменитьServicesImport_OZON" id="1068">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_OZON</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>OZON</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_OZONРасширеннаяПодсказка" id="1069"/>
+								</Button>
+								<Button name="ИзменитьServicesImport_YANDEX_MARKET" id="1070">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_YANDEX_MARKET</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЯНДЕКС.МАРКЕТ</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_YANDEX_MARKETРасширеннаяПодсказка" id="1071"/>
+								</Button>
+								<Button name="ИзменитьServicesImport_SBER_MEGA_MARKET" id="1072">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_SBER_MEGA_MARKET</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>СБЕРМЕГАМАРКЕТ</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_SBER_MEGA_MARKETРасширеннаяПодсказка" id="1073"/>
+								</Button>
+								<Button name="ИзменитьServicesImport_AVITO" id="1076">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_AVITO</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>АВИТО</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_AVITOРасширеннаяПодсказка" id="1077"/>
+								</Button>
+								<Button name="ИзменитьServicesImport_LEROY_MERLIN" id="1078">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_LEROY_MERLIN</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>LEROY MERLIN</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_LEROY_MERLINРасширеннаяПодсказка" id="1079"/>
+								</Button>
+								<Button name="ИзменитьServicesImport_DETMIR" id="1080">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_DETMIR</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДЕТСКИЙ МИР</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_DETMIRРасширеннаяПодсказка" id="1081"/>
+								</Button>
+								<Button name="ИзменитьServicesImport_KAZAN_EXPRESS" id="1082">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_KAZAN_EXPRESS</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>KAZAN EXPRESS</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_KAZAN_EXPRESSРасширеннаяПодсказка" id="1083"/>
+								</Button>
+								<Button name="ИзменитьServicesImport_ALIE_EXPRESS" id="1084">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<Height>1</Height>
+									<CommandName>Form.Command.ИзменитьServicesImport_ALIE_EXPRESS</CommandName>
+									<BorderColor>style:ButtonBackColor</BorderColor>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ALIE EXPRESS</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьServicesImport_ALIE_EXPRESSРасширеннаяПодсказка" id="1085"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
 						<InputField name="ОрганизацияИТ" id="1016">
 							<DataPath>Объект.ОрганизацияИТ</DataPath>
 							<Title>
@@ -1648,6 +1829,7 @@
 						</InputField>
 						<InputField name="ФайлИмпорта" id="1011">
 							<DataPath>ФайлИмпорта</DataPath>
+							<Visible>false</Visible>
 							<ChoiceButton>true</ChoiceButton>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ФайлИмпортаКонтекстноеМеню" id="1012"/>
@@ -1659,6 +1841,12 @@
 						<Button name="КнопкаКомандаТест" id="1009">
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.ЗапуститьОбработчикИмпортаТоваров</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отправить</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="КнопкаКомандаТестРасширеннаяПодсказка" id="1010"/>
 						</Button>
 					</ChildItems>
@@ -2047,6 +2235,12 @@
 										<Event name="OnChange">ВводШтрихкодаПриИзменении</Event>
 									</Events>
 								</InputField>
+								<Button name="Кнопка1" id="1059">
+									<Type>UsualButton</Type>
+									<Visible>false</Visible>
+									<CommandName>Form.Command.КомандаТест2</CommandName>
+									<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="1060"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<Table name="Комплектация" id="783">
@@ -2257,7 +2451,20 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
 									<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+									<Events>
+										<Event name="OnChange">ОрганизацияПриИзменении</Event>
+									</Events>
 								</InputField>
+								<Button name="СохранитьНастройки" id="1044">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.СохранитьНастройки</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.EndEdit</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="СохранитьНастройкиРасширеннаяПодсказка" id="1045"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<Pages name="Группа6" id="654">
@@ -2533,6 +2740,17 @@
 														</Title>
 														<ExtendedTooltip name="СкладыСвязатьСкладыНаСайтеРасширеннаяПодсказка" id="644"/>
 													</Button>
+													<Button name="СкладыОтвязатьСкладыНаСайте" id="1040">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОтвязатьСкладыНаСайте</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Отвязать склады</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="СкладыОтвязатьСкладыНаСайтеРасширеннаяПодсказка" id="1041"/>
+													</Button>
 												</ChildItems>
 											</AutoCommandBar>
 											<ExtendedTooltip name="СкладыРасширеннаяПодсказка" id="616"/>
@@ -2562,7 +2780,7 @@
 											</SearchControlAddition>
 											<ChildItems>
 												<CheckBoxField name="СкладыСвязатьСклады" id="640">
-													<DataPath>Объект.Склады.СвязатьСклады</DataPath>
+													<DataPath>Объект.Склады.ОбработатьСклады</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<CheckBoxType>Auto</CheckBoxType>
@@ -2591,12 +2809,6 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СкладыID_SelSupКонтекстноеМеню" id="630"/>
 													<ExtendedTooltip name="СкладыID_SelSupРасширеннаяПодсказка" id="631"/>
-												</InputField>
-												<InputField name="СкладыWarehouseId" id="922">
-													<DataPath>Объект.Склады.warehouseId</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ContextMenu name="СкладыWarehouseIdКонтекстноеМеню" id="923"/>
-													<ExtendedTooltip name="СкладыWarehouseIdРасширеннаяПодсказка" id="924"/>
 												</InputField>
 												<InputField name="СкладыНаименованиеСклада" id="632">
 													<DataPath>Объект.Склады.НаименованиеСклада</DataPath>
@@ -2812,6 +3024,41 @@
 											<ContextMenu name="ВыбПричинаОтменыЗаказаПокупателемКонтекстноеМеню" id="1026"/>
 											<ExtendedTooltip name="ВыбПричинаОтменыЗаказаПокупателемРасширеннаяПодсказка" id="1027"/>
 										</InputField>
+										<CheckBoxField name="СоздаватьРеализацииКЗаказам" id="1061">
+											<DataPath>Объект.СоздаватьРеализацииКЗаказам</DataPath>
+											<CheckBoxType>Switcher</CheckBoxType>
+											<ContextMenu name="СоздаватьРеализацииКЗаказамКонтекстноеМеню" id="1062"/>
+											<ExtendedTooltip name="СоздаватьРеализацииКЗаказамРасширеннаяПодсказка" id="1063"/>
+										</CheckBoxField>
+									</ChildItems>
+								</Page>
+								<Page name="Группа14" id="1048">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройка обмена</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="1049"/>
+									<ChildItems>
+										<CheckBoxField name="ВключитьВАвтообменОстатками" id="1050">
+											<DataPath>Объект.ВключитьВАвтообменОстатками</DataPath>
+											<CheckBoxType>Switcher</CheckBoxType>
+											<ContextMenu name="ВключитьВАвтообменОстаткамиКонтекстноеМеню" id="1051"/>
+											<ExtendedTooltip name="ВключитьВАвтообменОстаткамиРасширеннаяПодсказка" id="1052"/>
+										</CheckBoxField>
+										<CheckBoxField name="ВключитьВАвтообменТоварами" id="1053">
+											<DataPath>Объект.ВключитьВАвтообменТоварами</DataPath>
+											<CheckBoxType>Switcher</CheckBoxType>
+											<ContextMenu name="ВключитьВАвтообменТоварамиКонтекстноеМеню" id="1054"/>
+											<ExtendedTooltip name="ВключитьВАвтообменТоварамиРасширеннаяПодсказка" id="1055"/>
+										</CheckBoxField>
+										<CheckBoxField name="ВключитьВАвтообменЗаказами" id="1056">
+											<DataPath>Объект.ВключитьВАвтообменЗаказами</DataPath>
+											<CheckBoxType>Switcher</CheckBoxType>
+											<ContextMenu name="ВключитьВАвтообменЗаказамиКонтекстноеМеню" id="1057"/>
+											<ExtendedTooltip name="ВключитьВАвтообменЗаказамиРасширеннаяПодсказка" id="1058"/>
+										</CheckBoxField>
 									</ChildItems>
 								</Page>
 							</ChildItems>
@@ -2938,6 +3185,8 @@
 				<Field>Объект.ВыбЕдиницаИзмеренияУНФ</Field>
 				<Field>Объект.ВыбКонтрагент</Field>
 				<Field>Объект.ВыбМенеджер</Field>
+				<Field>Объект.ВыбПричинаОтменыЗаказа</Field>
+				<Field>Объект.ВыбПричинаОтменыЗаказаПокупателем</Field>
 				<Field>Объект.ВыбСклад</Field>
 				<Field>Объект.ВыбСкладРеал</Field>
 				<Field>Объект.ВыбСоглашение</Field>
@@ -2947,6 +3196,7 @@
 				<Field>Объект.МетодПродажи</Field>
 				<Field>Объект.НалогообложениеНДС</Field>
 				<Field>Объект.Организация</Field>
+				<Field>Объект.ОрганизацияИТ</Field>
 				<Field>Объект.СпособДоставки</Field>
 				<Field>Объект.СтатусОтправления</Field>
 				<Field>Объект.СхемаСопоставленияТовара</Field>
@@ -4124,21 +4374,6 @@
 			</ToolTip>
 			<Action>КомплектацияОперацияСброса</Action>
 		</Command>
-		<Command name="КомандаТест" id="76">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Команда тест</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Команда тест</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>КомандаТест</Action>
-		</Command>
 		<Command name="ЗапуститьОбработчикИмпортаТоваров" id="77">
 			<Title>
 				<v8:item>
@@ -4153,6 +4388,186 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗапуститьОбработчикИмпортаТоваров</Action>
+		</Command>
+		<Command name="ОтвязатьСкладыНаСайте" id="78">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отвязать склады на сайте</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отвязать склады на сайте</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтвязатьСкладыНаСайте</Action>
+		</Command>
+		<Command name="СохранитьНастройки" id="80">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьНастройки</Action>
+		</Command>
+		<Command name="КомандаТест2" id="76">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда тест2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда тест2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаТест2</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_WILDBERRIES" id="79">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>WILDBERRIES</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import WILDBERRIES</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_WILDBERRIES</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_OZON" id="81">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>OZON</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import OZON</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_OZON</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_YANDEX_MARKET" id="82">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>YANDEX MARKET</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import YANDEX MARKET</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_YANDEX_MARKET</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_SBER_MEGA_MARKET" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SBER MEGA MARKET</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import SBER MEGA MARKET</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_SBER_MEGA_MARKET</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_AVITO" id="84">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>AVITO</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import AVITO</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_AVITO</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_LEROY_MERLIN" id="85">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>LEROY MERLIN</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import LEROY MERLIN</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_LEROY_MERLIN</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_DETMIR" id="86">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>DETMIR</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import DETMIR</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_DETMIR</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_KAZAN_EXPRESS" id="87">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>KAZAN EXPRESS</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import KAZAN EXPRESS</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_KAZAN_EXPRESS</Action>
+		</Command>
+		<Command name="ИзменитьServicesImport_ALIE_EXPRESS" id="88">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ALIE EXPRESS</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить services import ALIE EXPRESS</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьServicesImport_ALIE_EXPRESS</Action>
 		</Command>
 	</Commands>
 </Form>
