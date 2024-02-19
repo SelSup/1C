@@ -78,15 +78,19 @@
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ПричиныОтменыЗаказовКлиентов</Catalog>
+			<Catalog>ШтрихкодыУпаковокТоваров</Catalog>
 			<Document>ЗаказКлиента</Document>
+			<Document>РеализацияТоваровУслуг</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДоговоровКонтрагентов</Enum>
 			<Enum>СтатусыЗаказовКлиентов</Enum>
+			<Enum>СостоянияЗаказовКлиентов</Enum>
 			<DataProcessor>ОбменSelSup_УТ</DataProcessor>
 			<InformationRegister>SS_КлючиAPI</InformationRegister>
 			<InformationRegister>SS_НастройкаОбмена</InformationRegister>
 			<InformationRegister>SS_РасширеннаяНастройкаЗаказов</InformationRegister>
+			<InformationRegister>СостоянияЗаказовКлиентов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
