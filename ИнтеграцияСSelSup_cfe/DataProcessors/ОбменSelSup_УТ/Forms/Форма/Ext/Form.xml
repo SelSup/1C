@@ -665,7 +665,6 @@
 										<InputField name="ЗаказыДатаДоставки" id="953">
 											<DataPath>Объект.Заказы.ДатаДоставки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ЗаказыДатаДоставкиКонтекстноеМеню" id="954"/>
 											<ExtendedTooltip name="ЗаказыДатаДоставкиРасширеннаяПодсказка" id="955"/>
 										</InputField>
@@ -737,7 +736,6 @@
 								<InputField name="ЗаказыСклад" id="1019">
 									<DataPath>Объект.Заказы.Склад</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ЗаказыСкладКонтекстноеМеню" id="1020"/>
 									<ExtendedTooltip name="ЗаказыСкладРасширеннаяПодсказка" id="1021"/>
 								</InputField>
@@ -956,7 +954,6 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ЗаказыФайлыURLКонтекстноеМеню" id="982"/>
 									<ExtendedTooltip name="ЗаказыФайлыURLРасширеннаяПодсказка" id="983"/>
 								</InputField>
@@ -1013,7 +1010,6 @@
 								</InputField>
 								<InputField name="ЧислоТоваров" id="931">
 									<DataPath>Объект.ЧислоТоваров</DataPath>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ЧислоТоваровКонтекстноеМеню" id="932"/>
 									<ExtendedTooltip name="ЧислоТоваровРасширеннаяПодсказка" id="933"/>
 								</InputField>
@@ -1035,7 +1031,6 @@
 								<InputField name="СхемаСопоставленияТовара" id="1037">
 									<DataPath>Объект.СхемаСопоставленияТовара</DataPath>
 									<DropListButton>true</DropListButton>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="СхемаСопоставленияТовараКонтекстноеМеню" id="1038"/>
 									<ExtendedTooltip name="СхемаСопоставленияТовараРасширеннаяПодсказка" id="1039"/>
 									<Events>
@@ -1378,7 +1373,6 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="СписокТоваровLinksNoBlockКонтекстноеМеню" id="935"/>
 											<ExtendedTooltip name="СписокТоваровLinksNoBlockРасширеннаяПодсказка" id="936"/>
 										</InputField>
@@ -1440,21 +1434,18 @@
 										<InputField name="ТоварыSelSupOzonArticle" id="1028">
 											<DataPath>Объект.ТоварыSelSup.ozonArticle</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ТоварыSelSupOzonArticleКонтекстноеМеню" id="1029"/>
 											<ExtendedTooltip name="ТоварыSelSupOzonArticleРасширеннаяПодсказка" id="1030"/>
 										</InputField>
 										<InputField name="ТоварыSelSupSberArticle" id="1031">
 											<DataPath>Объект.ТоварыSelSup.sberArticle</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ТоварыSelSupSberArticleКонтекстноеМеню" id="1032"/>
 											<ExtendedTooltip name="ТоварыSelSupSberArticleРасширеннаяПодсказка" id="1033"/>
 										</InputField>
 										<InputField name="ТоварыSelSupYandexMarketShopSku" id="1034">
 											<DataPath>Объект.ТоварыSelSup.yandexMarketShopSku</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ТоварыSelSupYandexMarketShopSkuКонтекстноеМеню" id="1035"/>
 											<ExtendedTooltip name="ТоварыSelSupYandexMarketShopSkuРасширеннаяПодсказка" id="1036"/>
 										</InputField>
@@ -1562,14 +1553,12 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="СписокТоваров1CBarcodeКонтекстноеМеню" id="942"/>
 													<ExtendedTooltip name="СписокТоваров1CBarcodeРасширеннаяПодсказка" id="943"/>
 												</InputField>
 												<InputField name="СписокТоваров1CКод" id="944">
 													<DataPath>Объект.Товары1C.Код</DataPath>
 													<EditMode>EnterOnInput</EditMode>
-													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="СписокТоваров1CКодКонтекстноеМеню" id="945"/>
 													<ExtendedTooltip name="СписокТоваров1CКодРасширеннаяПодсказка" id="946"/>
 												</InputField>
@@ -1594,7 +1583,6 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="СписокТоваров1CХарактеристикаКонтекстноеМеню" id="948"/>
 													<ExtendedTooltip name="СписокТоваров1CХарактеристикаРасширеннаяПодсказка" id="949"/>
 												</InputField>
@@ -1823,7 +1811,6 @@
 									<v8:content>Организация</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ОрганизацияИТКонтекстноеМеню" id="1017"/>
 							<ExtendedTooltip name="ОрганизацияИТРасширеннаяПодсказка" id="1018"/>
 						</InputField>
@@ -1831,7 +1818,6 @@
 							<DataPath>ФайлИмпорта</DataPath>
 							<Visible>false</Visible>
 							<ChoiceButton>true</ChoiceButton>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ФайлИмпортаКонтекстноеМеню" id="1012"/>
 							<ExtendedTooltip name="ФайлИмпортаРасширеннаяПодсказка" id="1013"/>
 							<Events>
@@ -2237,7 +2223,6 @@
 								</InputField>
 								<Button name="Кнопка1" id="1059">
 									<Type>UsualButton</Type>
-									<Visible>false</Visible>
 									<CommandName>Form.Command.КомандаТест2</CommandName>
 									<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="1060"/>
 								</Button>
@@ -2412,7 +2397,6 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ЗаказыФайлыURL1КонтекстноеМеню" id="1003"/>
 									<ExtendedTooltip name="ЗаказыФайлыURL1РасширеннаяПодсказка" id="1004"/>
 								</InputField>
@@ -3014,13 +2998,11 @@
 										</InputField>
 										<InputField name="ВыбПричинаОтменыЗаказа" id="1022">
 											<DataPath>Объект.ВыбПричинаОтменыЗаказа</DataPath>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ВыбПричинаОтменыЗаказаКонтекстноеМеню" id="1023"/>
 											<ExtendedTooltip name="ВыбПричинаОтменыЗаказаРасширеннаяПодсказка" id="1024"/>
 										</InputField>
 										<InputField name="ВыбПричинаОтменыЗаказаПокупателем" id="1025">
 											<DataPath>Объект.ВыбПричинаОтменыЗаказаПокупателем</DataPath>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ВыбПричинаОтменыЗаказаПокупателемКонтекстноеМеню" id="1026"/>
 											<ExtendedTooltip name="ВыбПричинаОтменыЗаказаПокупателемРасширеннаяПодсказка" id="1027"/>
 										</InputField>
