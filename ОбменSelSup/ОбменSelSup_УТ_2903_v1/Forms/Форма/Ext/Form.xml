@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -824,6 +824,13 @@
 									<ContextMenu name="ЗаказыЦенаКонтекстноеМеню" id="263"/>
 									<ExtendedTooltip name="ЗаказыЦенаРасширеннаяПодсказка" id="264"/>
 								</InputField>
+								<InputField name="ЗаказыЦенаБонусная" id="1119">
+									<DataPath>Объект.Заказы.ЦенаБонусная</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ЗаказыЦенаБонуснаяКонтекстноеМеню" id="1120"/>
+									<ExtendedTooltip name="ЗаказыЦенаБонуснаяРасширеннаяПодсказка" id="1121"/>
+								</InputField>
 								<InputField name="ЗаказыЗаказано" id="129">
 									<DataPath>Объект.Заказы.Заказано</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -1449,6 +1456,34 @@
 											<ContextMenu name="ТоварыSelSupYandexMarketShopSkuКонтекстноеМеню" id="1035"/>
 											<ExtendedTooltip name="ТоварыSelSupYandexMarketShopSkuРасширеннаяПодсказка" id="1036"/>
 										</InputField>
+										<InputField name="ТоварыSelSupOnecArticle" id="1086">
+											<DataPath>Объект.ТоварыSelSup.onecArticle</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupOnecArticleКонтекстноеМеню" id="1087"/>
+											<ExtendedTooltip name="ТоварыSelSupOnecArticleРасширеннаяПодсказка" id="1088"/>
+										</InputField>
+										<InputField name="ТоварыSelSupAliexpressSku" id="1089">
+											<DataPath>Объект.ТоварыSelSup.aliexpress_sku</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupAliexpressSkuКонтекстноеМеню" id="1090"/>
+											<ExtendedTooltip name="ТоварыSelSupAliexpressSkuРасширеннаяПодсказка" id="1091"/>
+										</InputField>
+										<InputField name="ТоварыSelSupWBArticle" id="1092">
+											<DataPath>Объект.ТоварыSelSup.wb_article</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupWBArticleКонтекстноеМеню" id="1093"/>
+											<ExtendedTooltip name="ТоварыSelSupWBArticleРасширеннаяПодсказка" id="1094"/>
+										</InputField>
+										<InputField name="ТоварыSelSupПолеAnyArticle" id="1095">
+											<DataPath>Объект.ТоварыSelSup.any_article</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupПолеAnyArticleКонтекстноеМеню" id="1096"/>
+											<ExtendedTooltip name="ТоварыSelSupПолеAnyArticleРасширеннаяПодсказка" id="1097"/>
+										</InputField>
 										<InputField name="СписокТоваровSelSupOneCId" id="547">
 											<DataPath>Объект.ТоварыSelSup.oneCId</DataPath>
 											<Visible>false</Visible>
@@ -1870,6 +1905,13 @@
 									<ContextMenu name="ВыбСкладКонтекстноеМеню" id="154"/>
 									<ExtendedTooltip name="ВыбСкладРасширеннаяПодсказка" id="155"/>
 								</InputField>
+								<CheckBoxField name="ВиртуальныйРезерв" id="1098">
+									<DataPath>Объект.ВиртуальныйРезерв</DataPath>
+									<Visible>false</Visible>
+									<CheckBoxType>Switcher</CheckBoxType>
+									<ContextMenu name="ВиртуальныйРезервКонтекстноеМеню" id="1099"/>
+									<ExtendedTooltip name="ВиртуальныйРезервРасширеннаяПодсказка" id="1100"/>
+								</CheckBoxField>
 								<InputField name="ВыбОрганизация" id="842">
 									<Title>
 										<v8:item>
@@ -1884,6 +1926,7 @@
 						</UsualGroup>
 						<Table name="Товары" id="62">
 							<Representation>List</Representation>
+							<Footer>true</Footer>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -1989,6 +2032,13 @@
 									<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="76"/>
 									<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="77"/>
 								</LabelField>
+								<InputField name="ТоварыКод" id="1104">
+									<DataPath>Объект.Товары.Код</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТоварыКодКонтекстноеМеню" id="1105"/>
+									<ExtendedTooltip name="ТоварыКодРасширеннаяПодсказка" id="1106"/>
+								</InputField>
 								<InputField name="ТоварыНаименованиеТовара" id="820">
 									<DataPath>Объект.Товары.НаименованиеТовара</DataPath>
 									<Visible>false</Visible>
@@ -2002,6 +2052,13 @@
 									<ChoiceButton>true</ChoiceButton>
 									<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="83"/>
+								</InputField>
+								<InputField name="ТоварыАртикул" id="1101">
+									<DataPath>Объект.Товары.Артикул</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТоварыАртикулКонтекстноеМеню" id="1102"/>
+									<ExtendedTooltip name="ТоварыАртикулРасширеннаяПодсказка" id="1103"/>
 								</InputField>
 								<InputField name="ТоварыХарактеристика" id="845">
 									<DataPath>Объект.Товары.Характеристика</DataPath>
@@ -2068,6 +2125,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Товары.TotalОстаток1С</FooterDataPath>
 									<ContextMenu name="ТоварыОстатокКонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="ТоварыОстатокРасширеннаяПодсказка" id="89"/>
 								</InputField>
@@ -2080,6 +2138,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Товары.TotalОстатокSelSup</FooterDataPath>
 									<ContextMenu name="ТоварыОстатокSelSupКонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="ТоварыОстатокSelSupРасширеннаяПодсказка" id="86"/>
 								</InputField>
@@ -2224,6 +2283,12 @@
 								<Button name="Кнопка1" id="1059">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.КомандаТест2</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Тест</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="1060"/>
 								</Button>
 							</ChildItems>
@@ -2828,6 +2893,12 @@
 												<Event name="OnChange">ИспользоватьРасширеннуюНастройкуЗаказовПриИзменении</Event>
 											</Events>
 										</CheckBoxField>
+										<InputField name="ВыбПрефикс" id="1107">
+											<DataPath>Объект.ВыбПрефикс</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ВыбПрефиксКонтекстноеМеню" id="1108"/>
+											<ExtendedTooltip name="ВыбПрефиксРасширеннаяПодсказка" id="1109"/>
+										</InputField>
 										<InputField name="ВидОперацииЗК" id="281">
 											<DataPath>Объект.ВидОперацииЗК</DataPath>
 											<Title>
@@ -2871,6 +2942,12 @@
 											<ContextMenu name="ВыбДоговорКонтекстноеМеню" id="903"/>
 											<ExtendedTooltip name="ВыбДоговорРасширеннаяПодсказка" id="904"/>
 										</InputField>
+										<CheckBoxField name="ВыбИспользоватьБонусныеЦены" id="1113">
+											<DataPath>Объект.ВыбИспользоватьБонусныеЦены</DataPath>
+											<CheckBoxType>Switcher</CheckBoxType>
+											<ContextMenu name="ВыбИспользоватьБонусныеЦеныКонтекстноеМеню" id="1114"/>
+											<ExtendedTooltip name="ВыбИспользоватьБонусныеЦеныРасширеннаяПодсказка" id="1115"/>
+										</CheckBoxField>
 										<Table name="РасширеннаяНастройкаЗаказов" id="700">
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
@@ -2932,6 +3009,13 @@
 													<ContextMenu name="РасширеннаяНастройкаЗаказовВидОперацииЗККонтекстноеМеню" id="929"/>
 													<ExtendedTooltip name="РасширеннаяНастройкаЗаказовВидОперацииЗКРасширеннаяПодсказка" id="930"/>
 												</InputField>
+												<CheckBoxField name="РасширеннаяНастройкаЗаказовИспользоватьБонусныеЦены" id="1116">
+													<DataPath>Объект.РасширеннаяНастройкаЗаказов.ИспользоватьБонусныеЦены</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="РасширеннаяНастройкаЗаказовИспользоватьБонусныеЦеныКонтекстноеМеню" id="1117"/>
+													<ExtendedTooltip name="РасширеннаяНастройкаЗаказовИспользоватьБонусныеЦеныРасширеннаяПодсказка" id="1118"/>
+												</CheckBoxField>
 												<InputField name="РасширеннаяНастройкаЗаказовКонтрагент" id="719">
 													<DataPath>Объект.РасширеннаяНастройкаЗаказов.Контрагент</DataPath>
 													<EditMode>EnterOnInput</EditMode>
@@ -2949,6 +3033,13 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="РасширеннаяНастройкаЗаказовДоговорКонтекстноеМеню" id="906"/>
 													<ExtendedTooltip name="РасширеннаяНастройкаЗаказовДоговорРасширеннаяПодсказка" id="907"/>
+												</InputField>
+												<InputField name="РасширеннаяНастройкаЗаказовПрефикс" id="1110">
+													<DataPath>Объект.РасширеннаяНастройкаЗаказов.Префикс</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширеннаяНастройкаЗаказовПрефиксКонтекстноеМеню" id="1111"/>
+													<ExtendedTooltip name="РасширеннаяНастройкаЗаказовПрефиксРасширеннаяПодсказка" id="1112"/>
 												</InputField>
 											</ChildItems>
 										</Table>
@@ -3162,11 +3253,16 @@
 				<Field>Объект.ApiKey</Field>
 				<Field>Объект.ClientID</Field>
 				<Field>Объект.ВидОперацииЗК</Field>
+				<Field>Объект.ВключитьВАвтообменЗаказами</Field>
+				<Field>Объект.ВключитьВАвтообменОстатками</Field>
+				<Field>Объект.ВключитьВАвтообменТоварами</Field>
 				<Field>Объект.ВключитьТестовыйРежим</Field>
 				<Field>Объект.ВыбДоговор</Field>
 				<Field>Объект.ВыбЕдиницаИзмеренияУНФ</Field>
+				<Field>Объект.ВыбИспользоватьБонусныеЦены</Field>
 				<Field>Объект.ВыбКонтрагент</Field>
 				<Field>Объект.ВыбМенеджер</Field>
+				<Field>Объект.ВыбПрефикс</Field>
 				<Field>Объект.ВыбПричинаОтменыЗаказа</Field>
 				<Field>Объект.ВыбПричинаОтменыЗаказаПокупателем</Field>
 				<Field>Объект.ВыбСклад</Field>
@@ -3179,6 +3275,7 @@
 				<Field>Объект.НалогообложениеНДС</Field>
 				<Field>Объект.Организация</Field>
 				<Field>Объект.ОрганизацияИТ</Field>
+				<Field>Объект.СоздаватьРеализацииКЗаказам</Field>
 				<Field>Объект.СпособДоставки</Field>
 				<Field>Объект.СтатусОтправления</Field>
 				<Field>Объект.СхемаСопоставленияТовара</Field>
@@ -3187,6 +3284,7 @@
 				<Field>Объект.ЦенаВключаетНДС</Field>
 			</Save>
 			<Columns>
+				<AdditionalColumns table="Объект.ФайлыДляСкачивания"/>
 				<AdditionalColumns table="Объект.ТоварыSelSup">
 					<Column name="Фото" id="1">
 						<Title>
@@ -3200,7 +3298,6 @@
 						</Type>
 					</Column>
 				</AdditionalColumns>
-				<AdditionalColumns table="Объект.ФайлыДляСкачивания"/>
 			</Columns>
 		</Attribute>
 		<Attribute name="ПравоРегистрацииШтрихкодовНоменклатурыДоступно" id="3">

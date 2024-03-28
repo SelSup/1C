@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<ExternalDataProcessor uuid="bf377205-3812-4dd3-a026-e2c58161617e">
+	<ExternalDataProcessor uuid="85071336-2978-4c64-a19a-c191f0a0ab35">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
-				<xr:ObjectId>bed320f7-0400-4fb1-a053-66bf3fe30a8e</xr:ObjectId>
+				<xr:ObjectId>d8a87997-6305-43d9-8f0e-ca935c589f17</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:GeneratedType name="ExternalDataProcessorObject.ОбменSelSup_УТ" category="Object">
-				<xr:TypeId>590bd51b-6c2a-4616-b847-33441a384559</xr:TypeId>
-				<xr:ValueId>3e539bdc-8d7c-4a5c-8a5f-1195e6c408a8</xr:ValueId>
+				<xr:TypeId>6cbc7e53-8640-459e-9da7-622e34190d3e</xr:TypeId>
+				<xr:ValueId>d471a696-6bf3-4d65-86f1-6fa21864b41e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -24,7 +24,7 @@
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="72dc9c95-246d-415b-aac7-dd90d20dab8e">
+			<Attribute uuid="a6a45133-9e46-421c-80c3-ee98a0df4812">
 				<Properties>
 					<Name>Организация</Name>
 					<Synonym>
@@ -58,7 +58,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="49baa0cb-28cd-49c6-9b7d-5f5ddbb4b363">
+			<Attribute uuid="636184c9-1ae8-49ed-8d52-e999ae63e210">
 				<Properties>
 					<Name>МетодПродажи</Name>
 					<Synonym>
@@ -92,7 +92,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="423c9091-193c-4f3a-a640-8954d1a1ac0a">
+			<Attribute uuid="9b607774-6f4b-4dd8-9324-cd4d139df88d">
 				<Properties>
 					<Name>Конфигурация</Name>
 					<Synonym>
@@ -126,7 +126,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7fc49e47-5f93-474f-ab44-54f6d8d8d723">
+			<Attribute uuid="f27eebf4-f6d5-4eed-b9c3-9a6175d394ad">
 				<Properties>
 					<Name>ДатаНачала</Name>
 					<Synonym>
@@ -163,7 +163,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7e23240d-3550-4571-b31e-95a93c982e07">
+			<Attribute uuid="acd8ecb4-70e6-4143-aa49-37d56ab982f8">
 				<Properties>
 					<Name>ДатаОкончания</Name>
 					<Synonym>
@@ -200,7 +200,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a59ddd19-6fc6-4357-b13e-574428c2d050">
+			<Attribute uuid="3d7a826f-e43b-41ab-9d40-6ecb6dd06f78">
 				<Properties>
 					<Name>ДатаДоставки</Name>
 					<Synonym>
@@ -237,7 +237,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6f83bdea-9c1e-4045-bf97-52b366f06fc2">
+			<Attribute uuid="2b12222d-6736-44ac-b7db-fb3f3e22abf8">
 				<Properties>
 					<Name>ВыбСклад</Name>
 					<Synonym>
@@ -271,7 +271,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9ece80cb-fd02-498a-a0f9-43b2e136d142">
+			<Attribute uuid="a8cfa0db-7fa6-4a06-899f-47b30cfde66b">
 				<Properties>
 					<Name>ClientID</Name>
 					<Synonym>
@@ -309,7 +309,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="723f4201-d838-44b3-9d60-5bf195fc81d0">
+			<Attribute uuid="851ba7ea-d271-4b24-844a-2786b0886d34">
 				<Properties>
 					<Name>ApiKey</Name>
 					<Synonym>
@@ -347,7 +347,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d357c6a3-4526-4d48-9268-d58f0cd4e73a">
+			<Attribute uuid="216229af-34e4-4df3-9c43-bc1381444d61">
 				<Properties>
 					<Name>СтатусОтправления</Name>
 					<Synonym>
@@ -385,7 +385,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="378d3f76-163e-49a3-9b0c-85fc3237ce3e">
+			<Attribute uuid="468b6033-5d07-4d5a-bcd4-69c7951cb158">
 				<Properties>
 					<Name>ВидОперацииЗК</Name>
 					<Synonym>
@@ -423,7 +423,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a4f9b98a-803e-4be5-ac83-3256890025c9">
+			<Attribute uuid="d036f66c-bbec-491f-b586-edf0e7911c78">
 				<Properties>
 					<Name>ВыбКонтрагент</Name>
 					<Synonym>
@@ -457,7 +457,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f6cd56af-c5dc-44dd-b337-e15fc4f5dd93">
+			<Attribute uuid="9d7af532-e739-4901-9aa3-e9c0e1295599">
 				<Properties>
 					<Name>ВыбСкладРеал</Name>
 					<Synonym>
@@ -491,7 +491,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="de3ba31c-2632-4d8b-bb47-a154504a459b">
+			<Attribute uuid="dbd6efc5-9e87-46c6-8450-08e0ce9c3a08">
 				<Properties>
 					<Name>ВыбСоглашение</Name>
 					<Synonym>
@@ -530,7 +530,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f4bc0c34-b660-4f72-bc7e-5160dcb0196a">
+			<Attribute uuid="b435d678-b3fb-42cb-b0a3-0c1f4fb8ac8e">
 				<Properties>
 					<Name>ВыбМенеджер</Name>
 					<Synonym>
@@ -569,7 +569,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="74c791e0-6522-40b4-a526-c320c79a4bdc">
+			<Attribute uuid="4a3db7f2-f5b4-48c0-a6b9-9795b7c456d4">
 				<Properties>
 					<Name>ВыбУпаковка</Name>
 					<Synonym>
@@ -608,7 +608,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5c15c87d-1eee-4324-9a5f-b1a5fa1e252c">
+			<Attribute uuid="82a4867d-6d39-4793-b05e-caf086322980">
 				<Properties>
 					<Name>ВыбНомерЗаказа</Name>
 					<Synonym>
@@ -646,7 +646,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6954f524-cee2-46f6-902e-ca96b9d32a03">
+			<Attribute uuid="b4f483d9-a055-4db5-adcd-c1e41b381aa8">
 				<Properties>
 					<Name>СпособДоставки</Name>
 					<Synonym>
@@ -680,7 +680,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="2e3dee77-11ac-4176-9b21-fb8e6385505a">
+			<Attribute uuid="80d670bf-cd97-4040-a147-31fc2dbf5a17">
 				<Properties>
 					<Name>НалогообложениеНДС</Name>
 					<Synonym>
@@ -719,7 +719,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="713fa2ae-5a93-4c8d-b37b-ebeffb737db7">
+			<Attribute uuid="9be0df52-af1a-4044-94e6-5245024491c0">
 				<Properties>
 					<Name>ЦенаВключаетНДС</Name>
 					<Synonym>
@@ -758,7 +758,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7b6fdfa8-2b5e-4f65-97cf-cc1b7d784705">
+			<Attribute uuid="eb31a2d7-da5c-42d7-9e05-7cdb8bfdf3e4">
 				<Properties>
 					<Name>ВыбДоговор</Name>
 					<Synonym>
@@ -820,7 +820,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6841cb17-7522-4d79-b5f6-993e6cdb8c68">
+			<Attribute uuid="d3858f99-8fe5-4a1d-a080-7cb84dd6c932">
 				<Properties>
 					<Name>ВыбСкладУНФ</Name>
 					<Synonym>
@@ -854,7 +854,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1bff1d63-887e-42f1-9aca-7738a9e58620">
+			<Attribute uuid="1e3fe7f3-ecc1-4c7c-82e1-af92581f21d0">
 				<Properties>
 					<Name>ВыбЕдиницаИзмеренияУНФ</Name>
 					<Synonym>
@@ -897,7 +897,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="73381f92-5fd7-4dba-85c3-8c02ade41118">
+			<Attribute uuid="22861a6b-4ae7-44ea-8ec8-805f2bc1de41">
 				<Properties>
 					<Name>SKU</Name>
 					<Synonym>
@@ -935,7 +935,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e50ff09f-9d61-429e-b54f-04f2c6aa8736">
+			<Attribute uuid="f0dda516-b3cf-4366-a33e-c606cd6ed4fd">
 				<Properties>
 					<Name>ИмяМетаданных</Name>
 					<Synonym>
@@ -973,7 +973,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d2e367d6-14d4-405e-a6ea-50640b2ba0fa">
+			<Attribute uuid="83a8c911-0b0c-4306-86a6-5249caa29301">
 				<Properties>
 					<Name>TextQuery</Name>
 					<Synonym>
@@ -1011,7 +1011,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="dd744fc9-5c58-451a-944c-5afc875fcd03">
+			<Attribute uuid="626f7158-f0ed-45f6-a7fb-4aa3ce9b7068">
 				<Properties>
 					<Name>Маркетплейс</Name>
 					<Synonym>
@@ -1049,7 +1049,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="de048aba-1a46-4fd2-9cc1-ef82a5953383">
+			<Attribute uuid="5d8cc833-06be-46c8-a795-47d488a0f6ff">
 				<Properties>
 					<Name>Services</Name>
 					<Synonym>
@@ -1087,7 +1087,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="ee192b51-d07e-4245-b015-e36766b243a9">
+			<Attribute uuid="22e6abcb-74fe-4b8b-b0a8-199dd5c52f5b">
 				<Properties>
 					<Name>CreatedIn</Name>
 					<Synonym>
@@ -1121,7 +1121,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="53032656-187e-4b73-ab0e-20b593dc9560">
+			<Attribute uuid="02ff2205-e781-4b4e-8b94-8f8829e1f3fb">
 				<Properties>
 					<Name>ТЧОрганизации</Name>
 					<Synonym>
@@ -1159,7 +1159,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="620d3079-e353-43af-9d96-e334ff3b796a">
+			<Attribute uuid="52ee1b74-78ff-4d1c-985f-85313dcb2a98">
 				<Properties>
 					<Name>ИспользоватьРасширеннуюНастройкуЗаказов</Name>
 					<Synonym>
@@ -1193,7 +1193,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f88d7488-c9e3-4e46-bae0-7bbd41da9019">
+			<Attribute uuid="6b0adec6-e331-43cc-91af-6723a2c2983d">
 				<Properties>
 					<Name>ТЧРасширеннаяНастройкаЗаказов</Name>
 					<Synonym>
@@ -1231,7 +1231,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e803e95a-e2fe-4d39-a4e8-b89a2383516e">
+			<Attribute uuid="9e0b3df6-7cfc-4440-8214-78f078b6ff87">
 				<Properties>
 					<Name>ФайлКартинки</Name>
 					<Synonym>
@@ -1276,7 +1276,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="2aecec86-fc32-4f24-be73-35db2c1f799f">
+			<Attribute uuid="9b52df44-a5f9-4e8a-83ab-edcc6148fc9b">
 				<Properties>
 					<Name>ВводШтрихкода</Name>
 					<Synonym>
@@ -1314,7 +1314,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3ce458f0-ec86-41a4-8c80-c4564d128902">
+			<Attribute uuid="c96c0d1a-cd8f-4914-97ab-564b160608a6">
 				<Properties>
 					<Name>ЧислоТоваров</Name>
 					<Synonym>
@@ -1353,7 +1353,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e356e8d4-8cd0-4aed-a0a9-c05a8dd9edac">
+			<Attribute uuid="8a31c1f1-6c69-4322-a23c-5847fb7c6560">
 				<Properties>
 					<Name>ВключитьТестовыйРежим</Name>
 					<Synonym>
@@ -1387,7 +1387,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="09104d7f-ce99-4178-8851-13c76f99ebd2">
+			<Attribute uuid="01aca58f-ed85-43bb-9ee6-4cd4e7eecde0">
 				<Properties>
 					<Name>СостояниеКомплектации</Name>
 					<Synonym>
@@ -1426,7 +1426,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="c944ca3a-1c4b-4e84-918b-eb03900701cb">
+			<Attribute uuid="6fc1c80d-8bd9-4a0a-a8fb-4b96ff7ee500">
 				<Properties>
 					<Name>ОрганизацияИТ</Name>
 					<Synonym>
@@ -1460,7 +1460,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="11c51c48-60d3-4c1e-ac6e-e2695c6715da">
+			<Attribute uuid="8c4fb00e-ce7e-44ca-bc1a-ed97888a894f">
 				<Properties>
 					<Name>ВыбПричинаОтменыЗаказа</Name>
 					<Synonym>
@@ -1499,7 +1499,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9bdc59fd-8f32-470d-8fe5-c06d2880c7e3">
+			<Attribute uuid="c2edf789-7fdb-47b2-92c9-68782a03555a">
 				<Properties>
 					<Name>ВыбПричинаОтменыЗаказаПокупателем</Name>
 					<Synonym>
@@ -1538,7 +1538,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7acf5d63-a5d7-4e0f-aab2-1c2dca8c7d7a">
+			<Attribute uuid="ce9e668e-6a46-43bf-9bb3-215df514a569">
 				<Properties>
 					<Name>СхемаСопоставленияТовара</Name>
 					<Synonym>
@@ -1551,7 +1551,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>25</v8:Length>
+							<v8:Length>100</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -1576,7 +1576,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8956cf47-efa2-4325-bac5-43cb65ad1b81">
+			<Attribute uuid="28be4fc6-bb3b-496e-b2fe-ea98a21b7d04">
 				<Properties>
 					<Name>ВключитьВАвтообменОстатками</Name>
 					<Synonym>
@@ -1610,7 +1610,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="55a9d7cb-8136-45c0-9386-b549aaf33832">
+			<Attribute uuid="cce27c58-60a3-48c7-8658-ef28610d02a1">
 				<Properties>
 					<Name>ВключитьВАвтообменТоварами</Name>
 					<Synonym>
@@ -1644,7 +1644,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="aae82313-e604-44ca-a735-541c35801ff1">
+			<Attribute uuid="4aa6fda0-511a-4b34-8294-dea6e8e65c35">
 				<Properties>
 					<Name>ВключитьВАвтообменЗаказами</Name>
 					<Synonym>
@@ -1678,7 +1678,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="2da1263a-9070-471f-8587-ea7795848b1e">
+			<Attribute uuid="1a2dda0b-04a3-42bd-b8a2-21f8d123171c">
 				<Properties>
 					<Name>СоздаватьРеализацииКЗаказам</Name>
 					<Synonym>
@@ -1712,7 +1712,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9075d7cd-20a3-4376-8222-d82b9a0aa80b">
+			<Attribute uuid="4ebe4553-a4cd-4816-8706-862fa26baa62">
 				<Properties>
 					<Name>ServicesImport</Name>
 					<Synonym>
@@ -1750,15 +1750,131 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="4a667952-e216-4133-8392-aaa8bef6b313">
+			<Attribute uuid="ff806c40-da11-4308-a773-1e626b669850">
+				<Properties>
+					<Name>ВиртуальныйРезерв</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Виртуальный резерв</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="368ef1fb-17b9-4706-95cb-8e2bfd709f18">
+				<Properties>
+					<Name>ВыбПрефикс</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Префикс</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>3</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Используется при нумерации документов. В начало каждого номера документов данной организации добавляется два буквенных символа.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d53e12f8-6acf-45bf-9d43-899006f2394d">
+				<Properties>
+					<Name>ВыбИспользоватьБонусныеЦены</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать бонусные цены</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Используется при нумерации документов. В начало каждого номера документов данной организации добавляется два буквенных символа.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="1b95960f-d84c-4790-9543-bc5233a25cd6">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.Товары" category="TabularSection">
-						<xr:TypeId>7df8b5e9-5812-4f17-a3f6-55515b090c77</xr:TypeId>
-						<xr:ValueId>09fcaa55-0dbb-48a6-9505-da79cf566921</xr:ValueId>
+						<xr:TypeId>db5f333f-bdad-43c4-b7f3-62ee43972c18</xr:TypeId>
+						<xr:ValueId>6d9cd150-6172-41fe-a97d-bacc631842cf</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.Товары" category="TabularSectionRow">
-						<xr:TypeId>92bde2a5-2472-4933-8f5e-3dd94559ea86</xr:TypeId>
-						<xr:ValueId>91f82749-05d7-4335-b2fe-4b80bd0b27d6</xr:ValueId>
+						<xr:TypeId>4e04dbb0-6f84-4e42-9730-1ffa1572ba2f</xr:TypeId>
+						<xr:ValueId>bd527d9e-89aa-4d90-a8fb-909a8ee14e62</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -1802,7 +1918,47 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="5eccb397-6bcd-4f91-ba40-718d8e80d5aa">
+					<Attribute uuid="3edd0849-4a4b-42f6-b39c-dfa237c1ca8f">
+						<Properties>
+							<Name>Код</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Код</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>20</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:type="xs:string"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5ecc7bfc-d7ad-48b6-ba56-f8862b08a59a">
 						<Properties>
 							<Name>Артикул</Name>
 							<Synonym>
@@ -1842,7 +1998,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ea8a620b-1e70-43e5-aaa9-c6509518e18f">
+					<Attribute uuid="8cfaec5c-c18b-40ae-b14b-7f19194378f3">
 						<Properties>
 							<Name>ID_SelSup</Name>
 							<Synonym>
@@ -1883,7 +2039,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4d63507d-e214-4e6b-862e-59ccbdf2f553">
+					<Attribute uuid="8869564f-46b7-4100-b68a-0f83176c2936">
 						<Properties>
 							<Name>НаименованиеТовара</Name>
 							<Synonym>
@@ -1923,7 +2079,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="b9065e38-d49c-4ef4-afb7-12e98d7dd731">
+					<Attribute uuid="1eb633b5-4a7a-4e85-a927-97516d7a6785">
 						<Properties>
 							<Name>Характеристика</Name>
 							<Synonym>
@@ -1959,7 +2115,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5ccbb9f0-f438-4972-a529-6919bd3e5994">
+					<Attribute uuid="9d738a49-e20e-42b3-a8e3-22b9d9c71a9b">
 						<Properties>
 							<Name>Номенклатура</Name>
 							<Synonym>
@@ -1995,7 +2151,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="21bfbea2-bb5d-412f-940e-a32080e19756">
+					<Attribute uuid="0b1705e8-56a8-4c4c-b280-e5a83e62fe25">
 						<Properties>
 							<Name>ШтрихКод</Name>
 							<Synonym>
@@ -2035,7 +2191,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="671a3e2c-b96d-43a5-ba90-e2cde97c6519">
+					<Attribute uuid="aee9a551-060f-4d87-9c53-ed1d0f8bc362">
 						<Properties>
 							<Name>ОстатокSelSup</Name>
 							<Synonym>
@@ -2076,7 +2232,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="e9e7fad5-04f7-48c9-8099-c23d62cbb788">
+					<Attribute uuid="a0ca55d8-2ac7-4f6a-85f1-8a6d01321b60">
 						<Properties>
 							<Name>ОжидаетсяКПоставкеSelSup</Name>
 							<Synonym>
@@ -2117,7 +2273,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9cc4c766-aeb7-4ca3-90ac-35f2c27886f8">
+					<Attribute uuid="70951d31-18ce-44a1-8d9f-109cdfc49db7">
 						<Properties>
 							<Name>ВРезервеSelSup</Name>
 							<Synonym>
@@ -2158,7 +2314,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9d4857ff-e70c-4f13-a496-33c5320be2e6">
+					<Attribute uuid="435968a1-57b0-4251-9273-0f6b1f4dacc2">
 						<Properties>
 							<Name>Остаток1С</Name>
 							<Synonym>
@@ -2199,7 +2355,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ec7cf17b-cbf2-41a1-9953-992782320ec1">
+					<Attribute uuid="a216b8b1-5b7f-4de2-89df-430cf22c7873">
 						<Properties>
 							<Name>Резерв1С</Name>
 							<Synonym>
@@ -2240,7 +2396,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="90257fbf-4158-4e1d-8bd7-e626414e54eb">
+					<Attribute uuid="1908df8e-1bda-42a1-944d-43e36a7ef244">
 						<Properties>
 							<Name>ЕстьОшибка</Name>
 							<Synonym>
@@ -2276,7 +2432,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5f964725-db21-4fe8-a400-9ee2dd9b1022">
+					<Attribute uuid="5be2ce73-d83a-47b6-b33f-aa00409a669a">
 						<Properties>
 							<Name>ОписаниеОшибки</Name>
 							<Synonym>
@@ -2316,7 +2472,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4a073fea-7b72-4e1c-a74b-cab2862cb864">
+					<Attribute uuid="4c367e25-ba56-40a8-bda6-521dd3371015">
 						<Properties>
 							<Name>ОбновитьОстаток</Name>
 							<Synonym>
@@ -2352,7 +2508,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="eeee173e-cbaf-4d13-b67b-422cdfcf4789">
+					<Attribute uuid="9e7d35c8-6476-4b5c-be90-32ed80e58dd1">
 						<Properties>
 							<Name>РазницаСвободный</Name>
 							<Synonym>
@@ -2393,7 +2549,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="30208804-23af-42e8-9a7e-c263a2cbc59e">
+					<Attribute uuid="c4e95a1d-941a-492d-b95a-492959487ff1">
 						<Properties>
 							<Name>РазницаСРезервом</Name>
 							<Synonym>
@@ -2434,7 +2590,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="51e6f3f3-96c9-46dc-881f-80d7636b7beb">
+					<Attribute uuid="716e00a9-b6a6-4ece-ab9b-3ee819555c8d">
 						<Properties>
 							<Name>Цена</Name>
 							<Synonym>
@@ -2475,7 +2631,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="09cc61b4-2c9d-48e2-be2f-40b8da58975f">
+					<Attribute uuid="d63cb016-7da5-4885-a7b4-e9dd7d528f0b">
 						<Properties>
 							<Name>Цена1С</Name>
 							<Synonym>
@@ -2516,7 +2672,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="d13404e1-7f87-46ec-b591-607f86ce3384">
+					<Attribute uuid="00c4717c-d6d0-4887-8c77-3fe4b26c5924">
 						<Properties>
 							<Name>ТЧ_SKU</Name>
 							<Synonym>
@@ -2556,7 +2712,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9b6b4846-28c2-447d-bb58-f34d2ec776bc">
+					<Attribute uuid="5df8d59e-6821-495a-bfc3-5806025153e0">
 						<Properties>
 							<Name>Склад</Name>
 							<Synonym>
@@ -2594,15 +2750,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="f5c8cdda-33d7-49fc-b9a5-2137ee38c994">
+			<TabularSection uuid="f22437da-7e08-4b01-90c9-c6ad5674ef13">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.Заказы" category="TabularSection">
-						<xr:TypeId>a58bb788-c90a-4f96-9374-0f55aee176aa</xr:TypeId>
-						<xr:ValueId>929ebb19-e3ce-4bd5-98bf-9b644313fc10</xr:ValueId>
+						<xr:TypeId>cd1a2f7b-fa6f-4160-bdab-130a6979dce5</xr:TypeId>
+						<xr:ValueId>1c899d3d-df7e-4411-99e5-b06409717dec</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.Заказы" category="TabularSectionRow">
-						<xr:TypeId>c95f5c92-368f-4229-975f-2f38065198e3</xr:TypeId>
-						<xr:ValueId>9dd0a29a-3c9c-4397-9099-313898bd8113</xr:ValueId>
+						<xr:TypeId>dc4e24ec-9efa-475a-aafa-14562083764d</xr:TypeId>
+						<xr:ValueId>c05e5d52-e3d8-4a00-af54-08f6567e472f</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -2646,7 +2802,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="932b3fce-b94a-4588-a118-b112c4bbacef">
+					<Attribute uuid="305974e1-c676-42de-b51b-33d9e2fd01aa">
 						<Properties>
 							<Name>ДатаСоздания</Name>
 							<Synonym>
@@ -2685,7 +2841,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="7f1bd6b8-3665-46e6-b8f9-d19fb8f96f80">
+					<Attribute uuid="ee2c1f04-58a1-47a8-87c2-e97e21a09599">
 						<Properties>
 							<Name>ДатаДоставки</Name>
 							<Synonym>
@@ -2724,7 +2880,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="f84afaa7-3b76-447a-8445-5b5bfec215eb">
+					<Attribute uuid="30edea66-5736-466a-8ec6-f5a32d3b1df9">
 						<Properties>
 							<Name>ПредельнаяДатаСборки</Name>
 							<Synonym>
@@ -2763,7 +2919,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="7da2addb-e81b-423e-b16e-1cdd668b83f5">
+					<Attribute uuid="f38c4ea7-4c12-49f1-8ce6-6ccc011a1bf1">
 						<Properties>
 							<Name>IDЗаказа</Name>
 							<Synonym>
@@ -2804,7 +2960,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4b3a7d50-8b52-49a5-bb95-0e4c9c39d113">
+					<Attribute uuid="de639c41-e230-4893-ae65-40173df2ebc6">
 						<Properties>
 							<Name>НомерЗаказа</Name>
 							<Synonym>
@@ -2844,7 +3000,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="3bbd9fa5-dab2-4a69-9abd-dd843f19f932">
+					<Attribute uuid="eee4ca10-e122-4093-a81d-cbc4cbb94ceb">
 						<Properties>
 							<Name>НомерОтправления</Name>
 							<Synonym>
@@ -2884,7 +3040,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="09ef769b-47b9-418b-9dab-bc02f8eda859">
+					<Attribute uuid="23095c20-a920-41a6-bb62-b997ec0e5ec8">
 						<Properties>
 							<Name>СтатусЗаказа</Name>
 							<Synonym>
@@ -2924,7 +3080,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="3c0c9d8b-2a01-4d2b-b554-58973bf0a08f">
+					<Attribute uuid="1e94992c-85e7-4c13-a5cb-d1b311f288b1">
 						<Properties>
 							<Name>Заказано</Name>
 							<Synonym>
@@ -2965,7 +3121,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="945c726f-7532-4495-920d-f1fc00c9c422">
+					<Attribute uuid="afeae790-8961-49b0-96a1-0c703c277c69">
 						<Properties>
 							<Name>oneCId</Name>
 							<Synonym>
@@ -3001,7 +3157,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="780e9c44-799f-45b1-8146-192db03b0e8f">
+					<Attribute uuid="33d164e4-d4b8-41b4-bbab-bd6cc9a8fbb6">
 						<Properties>
 							<Name>Номенклатура</Name>
 							<Synonym>
@@ -3037,7 +3193,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="43a8344c-8065-4a7c-a262-10b9051ff4ef">
+					<Attribute uuid="b0006cc3-55e4-4405-baa5-7607b9b4581c">
 						<Properties>
 							<Name>ID_sku</Name>
 							<Synonym>
@@ -3077,7 +3233,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="e9bf8079-77d2-42f4-986c-0085cdc146ac">
+					<Attribute uuid="ce65b875-3117-4a2d-875a-a442665b768d">
 						<Properties>
 							<Name>НаименованиеТовара</Name>
 							<Synonym>
@@ -3117,7 +3273,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="b41026d1-d70a-462e-9490-c7c2c064eb56">
+					<Attribute uuid="9ca67303-7b37-4748-9d06-6a1b683156f6">
 						<Properties>
 							<Name>Артикул</Name>
 							<Synonym>
@@ -3157,7 +3313,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="899a31b3-0f3b-4114-8365-245a0dfae882">
+					<Attribute uuid="b0efd5a8-08fb-419a-9da8-09291c0da7bc">
 						<Properties>
 							<Name>Цена</Name>
 							<Synonym>
@@ -3198,7 +3354,48 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2f5a583e-6816-48b7-bb5c-04811fa41b52">
+					<Attribute uuid="c4f7483c-ea6f-4ae0-8a69-da0bfa508985">
+						<Properties>
+							<Name>ЦенаБонусная</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Цена бонусная</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>bonusPrice</Comment>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2d0a6b4d-4f7b-4ead-b1b0-7a34c9e74c2d">
 						<Properties>
 							<Name>ШтрихКод</Name>
 							<Synonym>
@@ -3238,7 +3435,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4563cbd4-decc-46e1-8a0e-c03a2d58fbfe">
+					<Attribute uuid="00410480-dff0-4f88-aed8-afbb61a66287">
 						<Properties>
 							<Name>Характеристика</Name>
 							<Synonym>
@@ -3285,7 +3482,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0e5102e5-a5be-4b4d-a73d-a6d93b72f176">
+					<Attribute uuid="d86d4e6b-2307-4af2-b277-53a8ee54b549">
 						<Properties>
 							<Name>Обработать</Name>
 							<Synonym>
@@ -3321,7 +3518,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="f3b5c14e-ceb2-4de2-9569-f43df5912df9">
+					<Attribute uuid="a69f726c-f97d-4d4c-91c2-acb371ecd098">
 						<Properties>
 							<Name>ЗаказКлиента</Name>
 							<Synonym>
@@ -3357,7 +3554,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="3aa94c36-f577-43b7-8bb0-7f69e1b270a5">
+					<Attribute uuid="43bd3072-2224-4850-8049-47111d6699c5">
 						<Properties>
 							<Name>ЕстьОшибка</Name>
 							<Synonym>
@@ -3393,7 +3590,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5a10a0ee-f576-4092-bff2-f24cd0da92d5">
+					<Attribute uuid="687a62b5-fd82-4268-8204-5de697788c66">
 						<Properties>
 							<Name>ОписаниеОшибки</Name>
 							<Synonym>
@@ -3433,7 +3630,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="051acb36-10c1-4aa6-a762-e3eec8af2933">
+					<Attribute uuid="6b5e5de9-6691-4813-a3d8-ccd9bcb0137a">
 						<Properties>
 							<Name>СуммаДокумента</Name>
 							<Synonym>
@@ -3474,7 +3671,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4d1e2b38-2f08-4251-b330-754ebf7e9856">
+					<Attribute uuid="001d996d-7197-461e-bd9b-cb69d6bec1c9">
 						<Properties>
 							<Name>СуммаЗаказа</Name>
 							<Synonym>
@@ -3515,7 +3712,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4af65c54-2b87-42e7-8762-729671c1fbf2">
+					<Attribute uuid="10252661-a1e0-4f4d-aa51-d98451861604">
 						<Properties>
 							<Name>ЗаказПокупателя</Name>
 							<Synonym>
@@ -3551,7 +3748,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="50650899-34c4-41af-99fe-2fe1f5824a69">
+					<Attribute uuid="2f40f16f-9674-40de-a920-b19c77143d94">
 						<Properties>
 							<Name>Печать</Name>
 							<Synonym>
@@ -3587,7 +3784,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="6061e8e6-cb5d-4753-8c6a-b35907e0cc2b">
+					<Attribute uuid="2be22418-8016-4027-a4b2-7cbd4e3ae3e3">
 						<Properties>
 							<Name>Маркетплейс</Name>
 							<Synonym>
@@ -3627,7 +3824,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9d8724e6-78d8-4d37-aec2-ddf3b4b50d9f">
+					<Attribute uuid="a43059fe-838e-4c45-8e6b-62c093517f05">
 						<Properties>
 							<Name>organizationId</Name>
 							<Synonym>
@@ -3668,7 +3865,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ccd3caf9-078d-4351-96ff-6e0ad7c8194f">
+					<Attribute uuid="375b6afb-17b8-4c83-9851-b3f632fab28f">
 						<Properties>
 							<Name>warehouseId</Name>
 							<Synonym>
@@ -3709,7 +3906,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9340bb5a-e9a2-4a22-9b52-7fbe2c1600b2">
+					<Attribute uuid="e60ee8f9-4073-4396-8cca-99c52eb2246c">
 						<Properties>
 							<Name>Склад</Name>
 							<Synonym>
@@ -3747,15 +3944,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="824301dc-4444-4d78-8105-a06b0700c529">
+			<TabularSection uuid="c96e63de-868d-41cf-9826-3183c3559fe8">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.ТоварыSelSup" category="TabularSection">
-						<xr:TypeId>bc369422-6d7d-4a66-a774-74a7d5a6f1a6</xr:TypeId>
-						<xr:ValueId>070ed1eb-d72a-45fd-b84f-f7d43329ea26</xr:ValueId>
+						<xr:TypeId>a3be0d67-24b1-433b-8d55-0eedf611293b</xr:TypeId>
+						<xr:ValueId>d97fc525-012d-49af-a65d-fb6416090884</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.ТоварыSelSup" category="TabularSectionRow">
-						<xr:TypeId>13dcb9c6-b517-44aa-90fb-30a27c2caaf0</xr:TypeId>
-						<xr:ValueId>876a2e1b-09d5-4227-b115-0caaf27028d7</xr:ValueId>
+						<xr:TypeId>cb729a6c-49f3-491f-9571-0285e7d2931c</xr:TypeId>
+						<xr:ValueId>bc10fc1d-7617-4eba-8198-13580bbfc92b</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -3799,7 +3996,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="ef2832f5-e248-4930-849f-e67dc93cef74">
+					<Attribute uuid="7ea0488d-dfa9-47f8-aa95-44699165c317">
 						<Properties>
 							<Name>name</Name>
 							<Synonym>
@@ -3839,7 +4036,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="57357719-5803-4b3d-9a09-d797e3c79804">
+					<Attribute uuid="609707a6-4945-47b8-8920-c087104732f9">
 						<Properties>
 							<Name>id</Name>
 							<Synonym>
@@ -3880,7 +4077,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="8655015f-8878-4c1d-bfca-7f7100b7f74b">
+					<Attribute uuid="89432f1b-79c9-4ca4-95c0-7a8b5d1c92a5">
 						<Properties>
 							<Name>barcode</Name>
 							<Synonym>
@@ -3920,7 +4117,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="f95fb077-e9c6-4710-824b-0be7f4b34b5d">
+					<Attribute uuid="98aca67e-a2e6-42e0-8ff7-bde3a6f3e0ba">
 						<Properties>
 							<Name>organizationid</Name>
 							<Synonym>
@@ -3961,7 +4158,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="82900ff6-7164-4898-b47e-3df65a3a91e7">
+					<Attribute uuid="3ea674e3-c743-43fb-a157-3d43a4b4137b">
 						<Properties>
 							<Name>oneCId</Name>
 							<Synonym>
@@ -3997,7 +4194,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9f0cfc53-50c1-4ea9-84da-1cf457f8bfff">
+					<Attribute uuid="e71dfbdd-902f-4ff1-b681-593c21576c4d">
 						<Properties>
 							<Name>article</Name>
 							<Synonym>
@@ -4010,7 +4207,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>20</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4037,7 +4234,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="34cfafa8-9355-4de4-b884-3973f8e8f4a0">
+					<Attribute uuid="30fb89d8-c8b5-487f-b3c9-53ef1fb657a3">
 						<Properties>
 							<Name>mainImageUrl</Name>
 							<Synonym>
@@ -4077,7 +4274,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="d1c1c5f5-1931-4601-8c8f-568ec4ef719f">
+					<Attribute uuid="cbe44dba-679b-4700-b955-ed20b6a28c64">
 						<Properties>
 							<Name>createlink</Name>
 							<Synonym>
@@ -4113,7 +4310,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="7724ee02-ef40-4711-91c0-33273c991c99">
+					<Attribute uuid="c009b989-02fa-4f42-96d5-ab9709dc6289">
 						<Properties>
 							<Name>linksNoBlock</Name>
 							<Synonym>
@@ -4153,7 +4350,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="dafd4d64-f404-49be-ace6-1fdcc1498f6c">
+					<Attribute uuid="302f33b7-b98f-4d42-8e58-e3907ce3d140">
 						<Properties>
 							<Name>ozonArticle</Name>
 							<Synonym>
@@ -4166,7 +4363,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>20</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4193,7 +4390,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="b454547a-a5af-455a-8236-3f2c434a85ed">
+					<Attribute uuid="0e28f418-b272-4fc8-8d15-5671a035c67b">
 						<Properties>
 							<Name>sberArticle</Name>
 							<Synonym>
@@ -4206,7 +4403,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>20</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4233,7 +4430,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="db6fca59-cc1b-4326-8b80-e7f3ce777bdb">
+					<Attribute uuid="250d0068-469a-4d26-b14a-8e2e7f6ccaf8">
 						<Properties>
 							<Name>yandexMarketShopSku</Name>
 							<Synonym>
@@ -4246,7 +4443,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>20</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4273,7 +4470,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="29e16b7a-cf44-4adb-b366-2948a2cb381f">
+					<Attribute uuid="a0646b10-64c8-467a-9c77-1f393d528a60">
 						<Properties>
 							<Name>onecArticle</Name>
 							<Synonym>
@@ -4286,7 +4483,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>20</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4313,7 +4510,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="80b51d3e-c341-44f9-85b0-2a9a0b518159">
+					<Attribute uuid="0f68d270-a6fa-4800-99d4-5331e68603e5">
 						<Properties>
 							<Name>aliexpress_sku</Name>
 							<Synonym>
@@ -4326,7 +4523,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>20</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4353,7 +4550,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="25562029-d9b7-416d-8557-8b4a7a79d0f5">
+					<Attribute uuid="07fa0e95-f02d-477f-9f6f-b6508e0b24ea">
 						<Properties>
 							<Name>wb_article</Name>
 							<Synonym>
@@ -4366,7 +4563,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>20</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4393,7 +4590,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="01d633a6-c5be-455e-8889-e054f4721a53">
+					<Attribute uuid="0b335f07-9112-4f94-988e-71744290d618">
 						<Properties>
 							<Name>any_article</Name>
 							<Synonym>
@@ -4406,7 +4603,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>20</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4435,15 +4632,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="27cccced-9c7b-473a-b1a6-88c29795f6b9">
+			<TabularSection uuid="cfa0de2b-7398-4c0a-b351-dba55b79e2da">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.Товары1C" category="TabularSection">
-						<xr:TypeId>965fe5b8-a2f7-48a5-b37b-e6b8ea70e4d4</xr:TypeId>
-						<xr:ValueId>f7a7237d-bc07-4147-ba6f-9856ff6f4cce</xr:ValueId>
+						<xr:TypeId>5ab42b3a-fdc8-4e0d-a739-2ead5d8a2100</xr:TypeId>
+						<xr:ValueId>6d05fe42-4516-46bb-8782-e1265de440b0</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.Товары1C" category="TabularSectionRow">
-						<xr:TypeId>09db2ed6-7246-4105-a141-6c1873b6f8a7</xr:TypeId>
-						<xr:ValueId>0b1b796e-1360-4a0b-b1f7-d8c5a53ce753</xr:ValueId>
+						<xr:TypeId>f0743160-97bc-4eff-888f-d57647880559</xr:TypeId>
+						<xr:ValueId>a998466c-917d-4398-94b9-bb8a692eec10</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -4487,7 +4684,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="0742a9e8-18d2-497d-82df-2b5352fa74d0">
+					<Attribute uuid="12942785-7b43-4ea2-a5d6-fd4f754f7b3f">
 						<Properties>
 							<Name>Номенклатура</Name>
 							<Synonym>
@@ -4523,7 +4720,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2a9654d5-95db-4dbc-8ded-9483b85ee424">
+					<Attribute uuid="2024fc00-20a4-4812-8d47-f4d163d22e82">
 						<Properties>
 							<Name>Характеристика</Name>
 							<Synonym>
@@ -4559,7 +4756,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="7de0d052-abea-4a50-92c4-8c0bccf63e26">
+					<Attribute uuid="a872fd74-b7ee-4060-a4d5-dc7beb7c16f0">
 						<Properties>
 							<Name>id</Name>
 							<Synonym>
@@ -4600,7 +4797,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="b8d3e7a4-373d-476a-bad1-0d7932f212cd">
+					<Attribute uuid="a19977fc-e9ff-4787-ba88-0244c3f626cc">
 						<Properties>
 							<Name>oneCId</Name>
 							<Synonym>
@@ -4636,13 +4833,53 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0197f31b-9213-4efc-a3e8-1adee3519dd7">
+					<Attribute uuid="bbafde5b-86aa-46a6-8c33-05ff60dc976c">
 						<Properties>
 							<Name>article</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Article</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:type="xs:string"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f742d434-823b-4e77-ae03-6e35724575c5">
+						<Properties>
+							<Name>Код</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Код</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -4676,47 +4913,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="d16a5cb2-65dd-407f-8755-05753f83b172">
-						<Properties>
-							<Name>Код</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Код</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillFromFillingValue>false</FillFromFillingValue>
-							<FillValue xsi:type="xs:string"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="36bf3d2e-00ee-4bdf-adf1-bca8e5ecece0">
+					<Attribute uuid="8cdc02eb-8b4f-4422-8e27-c2e44a4a959c">
 						<Properties>
 							<Name>barcode</Name>
 							<Synonym>
@@ -4758,15 +4955,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="41ae9bfc-e6fb-46f5-8cc5-59b0fcbad511">
+			<TabularSection uuid="505da926-5fb1-4cdb-bd30-bbabcf98f58c">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.Организации" category="TabularSection">
-						<xr:TypeId>aa49f794-d986-438b-800c-872a7e2c9bb3</xr:TypeId>
-						<xr:ValueId>f899b4ea-2719-4d31-94b7-e4e67138aeda</xr:ValueId>
+						<xr:TypeId>61562e5c-50a2-401f-a94c-af66c48a38ff</xr:TypeId>
+						<xr:ValueId>13607894-46de-441e-a376-99f6664be5e7</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.Организации" category="TabularSectionRow">
-						<xr:TypeId>c393e88f-9f8c-4c2b-b936-16e120f8dd5b</xr:TypeId>
-						<xr:ValueId>5925dabb-a36e-4a49-b678-77e4c1b7971f</xr:ValueId>
+						<xr:TypeId>98cfc508-c7c5-4ed2-aa53-9fd71b28ac1a</xr:TypeId>
+						<xr:ValueId>1f53bf91-c1ba-4b66-990f-14b9e052811c</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -4810,7 +5007,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="15e3873d-5b98-46eb-bced-4c58572c1a4c">
+					<Attribute uuid="d9f9d7d1-a4c0-4613-988c-fd3ae4aa87b2">
 						<Properties>
 							<Name>ID_SelSup</Name>
 							<Synonym>
@@ -4851,7 +5048,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="09ab03ae-cc94-4f01-8be4-07ab03477c0d">
+					<Attribute uuid="e2ccfae9-5f82-4b5e-abaa-5a37aec3cdc8">
 						<Properties>
 							<Name>НаименованиеОрганизации</Name>
 							<Synonym>
@@ -4891,7 +5088,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="d6bf9507-2e30-443c-8501-12a36e6623a1">
+					<Attribute uuid="7502a81f-0e25-443a-9c1c-a45f2c621449">
 						<Properties>
 							<Name>Организация</Name>
 							<Synonym>
@@ -4929,15 +5126,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="72e5499c-7fa5-4066-8801-a499213e228b">
+			<TabularSection uuid="82ef107d-9ecb-4349-a911-b9e20b5a6fa3">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.Склады" category="TabularSection">
-						<xr:TypeId>01ed54f0-98b9-4436-a093-70dc15db6ce2</xr:TypeId>
-						<xr:ValueId>a32c4d35-8583-415b-93ed-807b3ac43173</xr:ValueId>
+						<xr:TypeId>bb030d4e-9b4b-4905-9b24-161b77430d4f</xr:TypeId>
+						<xr:ValueId>c2045238-a674-4276-bee6-1cefc472808f</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.Склады" category="TabularSectionRow">
-						<xr:TypeId>bc907175-87da-4cf8-ac7d-92d93739fc9e</xr:TypeId>
-						<xr:ValueId>20e2accd-b1f7-4c15-a72a-336fb19d1f9e</xr:ValueId>
+						<xr:TypeId>b657a92e-bffc-4ed5-9b14-006d18239179</xr:TypeId>
+						<xr:ValueId>98460003-34db-40cf-b437-88570f06279d</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -4981,7 +5178,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="566ebfc4-3f70-4a70-b14a-bb1da89e8fc5">
+					<Attribute uuid="d50101b8-c605-49ea-abc2-273c73553953">
 						<Properties>
 							<Name>ID_SelSup</Name>
 							<Synonym>
@@ -5022,7 +5219,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="935f1c99-4ee5-4ded-8d50-0817c562df11">
+					<Attribute uuid="7034aec8-cd64-4261-843f-b791c8088eb2">
 						<Properties>
 							<Name>ID_1C</Name>
 							<Synonym>
@@ -5058,7 +5255,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="43776080-e3e1-4670-b3cd-6046b9d494e7">
+					<Attribute uuid="82c0c6db-4717-41cd-85a6-86d6f6eb4a12">
 						<Properties>
 							<Name>НаименованиеСклада</Name>
 							<Synonym>
@@ -5098,7 +5295,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="f49dcf62-577a-45d9-8ffa-3948de07105d">
+					<Attribute uuid="01747f9a-5cb5-48a9-ba0b-aa77ab5e224a">
 						<Properties>
 							<Name>Склад</Name>
 							<Synonym>
@@ -5134,7 +5331,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="19929233-4b69-4420-8186-c9d202d3b300">
+					<Attribute uuid="9c33b9f9-afa4-4440-a4bb-3789e829883b">
 						<Properties>
 							<Name>ОбработатьСклады</Name>
 							<Synonym>
@@ -5170,7 +5367,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5a3104eb-2d7e-4402-8c95-eebb804439c6">
+					<Attribute uuid="e34a7aae-780f-4018-bf5d-4a45b6225048">
 						<Properties>
 							<Name>warehouseId</Name>
 							<Synonym>
@@ -5213,15 +5410,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="5b4dac81-ffae-4d54-a325-d5ebc13fdc77">
+			<TabularSection uuid="e73eb94a-00e3-4a25-bd21-85c395961443">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.РасширеннаяНастройкаЗаказов" category="TabularSection">
-						<xr:TypeId>83c5962f-708e-435e-b5c1-794c8481f93d</xr:TypeId>
-						<xr:ValueId>dfc3078a-f095-49fa-941b-07ef29f8c8ff</xr:ValueId>
+						<xr:TypeId>e3645ea7-5ee4-4ec7-9b70-eab25255205d</xr:TypeId>
+						<xr:ValueId>9380f1f6-9854-4a30-a8fa-7d2a101d33da</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.РасширеннаяНастройкаЗаказов" category="TabularSectionRow">
-						<xr:TypeId>57884504-381b-409a-98e3-03772c499fa1</xr:TypeId>
-						<xr:ValueId>6ebdde56-30b8-4652-bae2-b8171e7b1f61</xr:ValueId>
+						<xr:TypeId>c87a2989-65eb-4cc5-8ac6-e59bde71e425</xr:TypeId>
+						<xr:ValueId>86cea055-af6f-4cd1-9640-5aaaf76d517f</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -5265,7 +5462,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="756e1679-3db6-4c85-8374-16458ff7cd48">
+					<Attribute uuid="a6962636-3cfa-4f3f-9eda-dcaed336e112">
 						<Properties>
 							<Name>Маркетплейс</Name>
 							<Synonym>
@@ -5305,7 +5502,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9a5f87a2-65c4-451d-8966-359932abd543">
+					<Attribute uuid="904e7183-fea7-402e-8e48-76368a5002b4">
 						<Properties>
 							<Name>ВидОперацииЗК</Name>
 							<Synonym>
@@ -5345,7 +5542,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2b4eef29-2412-4d3d-b1de-b8addc7f9acb">
+					<Attribute uuid="411f8eb2-5b3e-4604-b2d7-47a3434f5ef8">
 						<Properties>
 							<Name>Контрагент</Name>
 							<Synonym>
@@ -5381,7 +5578,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="20675280-53e4-4294-9105-782cfcb8764e">
+					<Attribute uuid="7663710b-e3d8-416e-a457-591663b2acca">
 						<Properties>
 							<Name>Соглашение</Name>
 							<Synonym>
@@ -5422,7 +5619,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="26b05dfb-d534-4aca-a134-319c24df6edb">
+					<Attribute uuid="b48b17c1-aa64-4768-b457-5fa1a0f9d8e9">
 						<Properties>
 							<Name>Договор</Name>
 							<Synonym>
@@ -5463,17 +5660,103 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="85d3c3ea-d6fe-404a-be96-55579b8fe6a8">
+						<Properties>
+							<Name>Префикс</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Префикс документа</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>3</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется при нумерации документов. В начало каждого номера документов данной организации добавляется два буквенных символа.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:type="xs:string"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="91fdfb1c-db8d-4911-b023-995090765a2b">
+						<Properties>
+							<Name>ИспользоватьБонусныеЦены</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать бонусные цены</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется при нумерации документов. В начало каждого номера документов данной организации добавляется два буквенных символа.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="e3291f4a-4c55-4920-ae5d-6c14a4e7c20c">
+			<TabularSection uuid="7141bb3f-4498-4432-a204-bb7ecac16df7">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.ФайлыДляСкачивания" category="TabularSection">
-						<xr:TypeId>dbfd8ff6-1028-4806-8877-4f971ab3e7b2</xr:TypeId>
-						<xr:ValueId>6eb9cccd-945f-4c14-a876-e0c0ad37636b</xr:ValueId>
+						<xr:TypeId>8172c17b-8424-458a-a7c6-131d17d711ab</xr:TypeId>
+						<xr:ValueId>04ec8111-0177-42a5-bcf1-2d9499a2fd8b</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.ФайлыДляСкачивания" category="TabularSectionRow">
-						<xr:TypeId>2472a759-c695-46f0-9b95-de7481484578</xr:TypeId>
-						<xr:ValueId>f983bf16-a944-4ec2-a660-13355098d2fa</xr:ValueId>
+						<xr:TypeId>47f53119-88e0-4cef-9db9-773fdc5ef984</xr:TypeId>
+						<xr:ValueId>0c9395df-58d1-4abd-b00f-4a4fff35ecb3</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -5517,7 +5800,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="b275cbca-1e9e-4791-9dc3-b330d55b6cb2">
+					<Attribute uuid="f71def8f-93c0-47d2-934d-491f7339df48">
 						<Properties>
 							<Name>URL</Name>
 							<Synonym>
@@ -5559,15 +5842,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="86f050dd-be49-4222-b96c-19be6768f4e1">
+			<TabularSection uuid="7b768399-ba96-41ca-b44b-fb67f66cf6c7">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.Комплектация" category="TabularSection">
-						<xr:TypeId>3f8595bc-7ab8-43c3-89da-af6216dffb28</xr:TypeId>
-						<xr:ValueId>69e4e97a-ac38-424a-9a1e-12e80e713fdf</xr:ValueId>
+						<xr:TypeId>9736ab66-3429-4449-ae60-43651d6518b9</xr:TypeId>
+						<xr:ValueId>56c85bed-507f-4a78-bb86-bb07b5d85bb4</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.Комплектация" category="TabularSectionRow">
-						<xr:TypeId>8cbf500a-9d73-4a3b-9080-aa2c44834d7a</xr:TypeId>
-						<xr:ValueId>2598a630-6aec-4da2-a77a-0ca2a7a2bde2</xr:ValueId>
+						<xr:TypeId>483051b8-3a75-443e-9504-453e7a326098</xr:TypeId>
+						<xr:ValueId>16ad0e17-50e1-4833-9cde-672744c124f3</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -5611,7 +5894,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="fb1c118c-6d99-40b2-87a3-c06a4938762f">
+					<Attribute uuid="6630d7d4-eba8-4841-b9ca-82aa615ebde7">
 						<Properties>
 							<Name>Номенклатура</Name>
 							<Synonym>
@@ -5647,7 +5930,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9f6e9d38-5717-4eb9-be60-29645b792a08">
+					<Attribute uuid="486f1b45-6f50-49f4-b607-aa858e60e131">
 						<Properties>
 							<Name>Характеристика</Name>
 							<Synonym>
@@ -5683,7 +5966,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="3d69f9ae-f52e-40d7-932d-fdad62a140a6">
+					<Attribute uuid="d9ac039f-c8e8-4bc8-a134-fad63b6ce8eb">
 						<Properties>
 							<Name>Штрихкод</Name>
 							<Synonym>
@@ -5723,7 +6006,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="8f41e2c4-3b2e-4205-b62e-d68178d27fc6">
+					<Attribute uuid="5582d84a-631d-42bc-b97c-0c9ec41500a2">
 						<Properties>
 							<Name>Упаковка</Name>
 							<Synonym>
@@ -5768,7 +6051,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="a1c356c8-4fb7-48bd-b213-85d859e8743b">
+					<Attribute uuid="108fc12c-918d-4192-8bba-cdfd54783ed7">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>
@@ -5809,7 +6092,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="b31bdc9d-1835-4805-85c4-76e488611c8d">
+					<Attribute uuid="5682671f-223b-4eea-a6b1-41d84bad43aa">
 						<Properties>
 							<Name>oneCId</Name>
 							<Synonym>
@@ -5845,7 +6128,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="d8c19883-2b31-4a08-ba7d-10527d13dd24">
+					<Attribute uuid="58c1d446-5aa8-4fa8-b50d-d0f7c1b56db0">
 						<Properties>
 							<Name>oneCIdСтрокой</Name>
 							<Synonym>
@@ -5887,15 +6170,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="a6070320-0334-4f5d-969c-9ac23f64d78e">
+			<TabularSection uuid="3d9bb3b0-a008-45f2-b0c8-50aa2d893453">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.ЗаказНаКомплектацию" category="TabularSection">
-						<xr:TypeId>42fe84c5-7898-4762-93d5-c23dad2f92eb</xr:TypeId>
-						<xr:ValueId>f1a808ac-f140-47d4-8a1d-3f9e23e4f4cb</xr:ValueId>
+						<xr:TypeId>c047a741-d006-4bbf-b1eb-8285c8d51867</xr:TypeId>
+						<xr:ValueId>9ac14e5b-75ef-4420-bc84-c534de346712</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменSelSup_УТ.ЗаказНаКомплектацию" category="TabularSectionRow">
-						<xr:TypeId>0431169e-5ff6-454f-ab49-7b0a75a90f5f</xr:TypeId>
-						<xr:ValueId>243defb5-32e9-4835-beaa-40761f80a9a4</xr:ValueId>
+						<xr:TypeId>e2641bf3-a730-4c01-9ff5-c83e98b0b81a</xr:TypeId>
+						<xr:ValueId>164ade86-53e4-443c-8fc6-412f200678a5</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -5939,7 +6222,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="00b11376-d0de-4245-821a-9b57eb878299">
+					<Attribute uuid="20b6009d-fd4b-4d08-bce6-6b042300eb39">
 						<Properties>
 							<Name>orderProductCollectId</Name>
 							<Synonym>
@@ -5980,7 +6263,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="fee53172-0a7e-44e1-b067-6ba556acc3a4">
+					<Attribute uuid="ae2d1a3e-911c-4263-92c4-1e000a3bed38">
 						<Properties>
 							<Name>productCodeId</Name>
 							<Synonym>
@@ -6021,7 +6304,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="06536c7d-b901-4523-b8b8-eea82ec3ef2e">
+					<Attribute uuid="4351e2ac-47b3-4ab2-9a76-718064775df5">
 						<Properties>
 							<Name>oneCId</Name>
 							<Synonym>
@@ -6057,7 +6340,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="737193b9-6343-4d84-89f9-f79272c58c45">
+					<Attribute uuid="52465a2d-de41-45c4-8366-c3562ebc0d0c">
 						<Properties>
 							<Name>oneCIdСтрокой</Name>
 							<Synonym>
@@ -6097,7 +6380,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0748b8b5-bb66-4bc5-b9e4-11104ffe8255">
+					<Attribute uuid="ac9236d7-8fa7-48a0-bf59-e3bbfaebd5d4">
 						<Properties>
 							<Name>marked</Name>
 							<Synonym>
@@ -6133,7 +6416,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="873327c7-b4c0-4194-876f-4834e91867ec">
+					<Attribute uuid="5ef218cf-55dc-4d7b-ae29-a902dcbf86a4">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>
@@ -6174,7 +6457,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="05a18c92-31e6-4493-abe7-ec887e7a6ee4">
+					<Attribute uuid="26047924-c137-4db1-8c29-d2a3444f66b4">
 						<Properties>
 							<Name>externalOrderId</Name>
 							<Synonym>
@@ -6215,7 +6498,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="27dc7988-626e-44e2-aa59-3375f509741d">
+					<Attribute uuid="e57a8df1-92e2-4b05-b672-234e7ee41fa4">
 						<Properties>
 							<Name>orderid</Name>
 							<Synonym>
