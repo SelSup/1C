@@ -91,7 +91,6 @@
 			<InformationRegister>SS_НастройкаОбмена</InformationRegister>
 			<InformationRegister>SS_РасширеннаяНастройкаЗаказов</InformationRegister>
 			<InformationRegister>СостоянияЗаказовКлиентов</InformationRegister>
-			<InformationRegister>SS_ЭтикеткиЗаказов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

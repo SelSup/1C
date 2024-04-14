@@ -1907,7 +1907,12 @@
 								</InputField>
 								<CheckBoxField name="ВиртуальныйРезерв" id="1098">
 									<DataPath>Объект.ВиртуальныйРезерв</DataPath>
-									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показать виртуальный резерв</v8:content>
+										</v8:item>
+									</Title>
 									<CheckBoxType>Switcher</CheckBoxType>
 									<ContextMenu name="ВиртуальныйРезервКонтекстноеМеню" id="1099"/>
 									<ExtendedTooltip name="ВиртуальныйРезервРасширеннаяПодсказка" id="1100"/>
