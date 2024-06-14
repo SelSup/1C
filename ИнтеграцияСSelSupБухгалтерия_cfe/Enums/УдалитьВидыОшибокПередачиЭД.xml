@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="df210476-cfbf-41fd-ade3-898c3b8042c1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.УдалитьВидыОшибокПередачиЭД" category="Ref">
+				<xr:TypeId>4e4be7d9-bd8f-41d9-ae0d-fd9123c8d50d</xr:TypeId>
+				<xr:ValueId>83c63a4f-c591-4928-924c-9357140fc0e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.УдалитьВидыОшибокПередачиЭД" category="Manager">
+				<xr:TypeId>e512c6e7-893f-498b-875d-d9169ae348e2</xr:TypeId>
+				<xr:ValueId>848e5899-dd95-4acd-aaaa-6919f0fb04b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.УдалитьВидыОшибокПередачиЭД" category="List">
+				<xr:TypeId>ce238002-bcb6-4001-a797-3cdd2b643b13</xr:TypeId>
+				<xr:ValueId>2ffd4be8-36a7-4326-81ab-75be4468eb4c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УдалитьВидыОшибокПередачиЭД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c571c482-0a35-4e36-99e8-8a2fd380b7cf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
