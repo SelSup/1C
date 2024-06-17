@@ -510,11 +510,6 @@
 										</Title>
 										<ExtendedTooltip name="ЗаказыГруппа7РасширеннаяПодсказка" id="329"/>
 										<ChildItems>
-											<Button name="ЗаказыВыбратьВыбратьПоФильтру" id="1122">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ВыбратьПоФильтру</CommandName>
-												<ExtendedTooltip name="ЗаказыВыбратьВыбратьПоФильтруРасширеннаяПодсказка" id="1123"/>
-											</Button>
 											<Button name="ЗаказыВыбратьВсеФлажки" id="272">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ВыбратьВсеФлажки</CommandName>
@@ -527,11 +522,6 @@
 											</Button>
 										</ChildItems>
 									</Popup>
-									<Button name="ЗаполнитьЗаказыПокупателей" id="1133">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ЗаполнитьЗаказыПокупателей</CommandName>
-										<ExtendedTooltip name="ЗаполнитьЗаказыПокупателейРасширеннаяПодсказка" id="1134"/>
-									</Button>
 									<Button name="ЗаказыСформироватьЗаказыПокупателей" id="298">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.СоздатьЗаказыПокупателей</CommandName>
@@ -571,15 +561,6 @@
 											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</Picture>
 										<ExtendedTooltip name="ЗаказыПометитьЗаказыСобраннымиРасширеннаяПодсказка" id="964"/>
-									</Button>
-									<Button name="ЗаказыУкомплектоватьЗаказыПокупателей" id="1059">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.УкомплектоватьЗаказыПокупателей</CommandName>
-										<Picture>
-											<xr:Abs>Picture.png</xr:Abs>
-											<xr:LoadTransparent>false</xr:LoadTransparent>
-										</Picture>
-										<ExtendedTooltip name="ЗаказыУкомплектоватьЗаказыПокупателейРасширеннаяПодсказка" id="1060"/>
 									</Button>
 									<Button name="ЗаказыОбновитьЭтикеткиЗаказов" id="692">
 										<Type>CommandBarButton</Type>
@@ -667,7 +648,6 @@
 								<LabelField name="ЗаказыНомерСтроки" id="114">
 									<DataPath>Объект.Заказы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<Width>5</Width>
 									<ContextMenu name="ЗаказыНомерСтрокиКонтекстноеМеню" id="115"/>
 									<ExtendedTooltip name="ЗаказыНомерСтрокиРасширеннаяПодсказка" id="116"/>
 								</LabelField>
@@ -685,14 +665,19 @@
 										<InputField name="ЗаказыДатаДоставки" id="953">
 											<DataPath>Объект.Заказы.ДатаДоставки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<Width>10</Width>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 											<ContextMenu name="ЗаказыДатаДоставкиКонтекстноеМеню" id="954"/>
 											<ExtendedTooltip name="ЗаказыДатаДоставкиРасширеннаяПодсказка" id="955"/>
 										</InputField>
 										<InputField name="ЗаказыДатаСоздания" id="300">
 											<DataPath>Объект.Заказы.ДатаСоздания</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<Width>10</Width>
 											<ContextMenu name="ЗаказыДатаСозданияКонтекстноеМеню" id="301"/>
 											<ExtendedTooltip name="ЗаказыДатаСозданияРасширеннаяПодсказка" id="302"/>
 										</InputField>
@@ -737,7 +722,6 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<Width>10</Width>
 											<ContextMenu name="ЗаказыНомерЗаказаКонтекстноеМеню" id="236"/>
 											<ExtendedTooltip name="ЗаказыНомерЗаказаРасширеннаяПодсказка" id="237"/>
 										</InputField>
@@ -759,13 +743,19 @@
 								<InputField name="ЗаказыСклад" id="1019">
 									<DataPath>Объект.Заказы.Склад</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 									<ContextMenu name="ЗаказыСкладКонтекстноеМеню" id="1020"/>
 									<ExtendedTooltip name="ЗаказыСкладРасширеннаяПодсказка" id="1021"/>
 								</InputField>
 								<InputField name="ЗаказыМаркетплейс" id="662">
 									<DataPath>Объект.Заказы.Маркетплейс</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<Width>20</Width>
 									<ContextMenu name="ЗаказыМаркетплейсКонтекстноеМеню" id="663"/>
 									<ExtendedTooltip name="ЗаказыМаркетплейсРасширеннаяПодсказка" id="664"/>
 								</InputField>
@@ -778,52 +768,10 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<Width>20</Width>
+									<Width>11</Width>
 									<ContextMenu name="ЗаказыСтатусЗаказаКонтекстноеМеню" id="239"/>
 									<ExtendedTooltip name="ЗаказыСтатусЗаказаРасширеннаяПодсказка" id="240"/>
 								</InputField>
-								<InputField name="ЗаказыЗаказКлиента" id="132">
-									<DataPath>Объект.Заказы.ЗаказКлиента</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>20</Width>
-									<ContextMenu name="ЗаказыЗаказКлиентаКонтекстноеМеню" id="133"/>
-									<ExtendedTooltip name="ЗаказыЗаказКлиентаРасширеннаяПодсказка" id="134"/>
-								</InputField>
-								<InputField name="ЗаказыЗаказПокупателя" id="480">
-									<DataPath>Объект.Заказы.ЗаказПокупателя</DataPath>
-									<Visible>false</Visible>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ЗаказыЗаказПокупателяКонтекстноеМеню" id="481"/>
-									<ExtendedTooltip name="ЗаказыЗаказПокупателяРасширеннаяПодсказка" id="482"/>
-								</InputField>
-								<InputField name="ЗаказыРеализация" id="1130">
-									<DataPath>Объект.Заказы.Реализация</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>20</Width>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ЗаказыРеализацияКонтекстноеМеню" id="1131"/>
-									<ExtendedTooltip name="ЗаказыРеализацияРасширеннаяПодсказка" id="1132"/>
-								</InputField>
-								<ColumnGroup name="ЗаказыГруппа8" id="351">
-									<ExtendedTooltip name="ЗаказыГруппа8РасширеннаяПодсказка" id="352"/>
-									<ChildItems>
-										<CheckBoxField name="ЗаказыЕстьОшибка" id="135">
-											<DataPath>Объект.Заказы.ЕстьОшибка</DataPath>
-											<Visible>false</Visible>
-											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ЗаказыЕстьОшибкаКонтекстноеМеню" id="136"/>
-											<ExtendedTooltip name="ЗаказыЕстьОшибкаРасширеннаяПодсказка" id="137"/>
-										</CheckBoxField>
-										<InputField name="ЗаказыОписаниеОшибки" id="138">
-											<DataPath>Объект.Заказы.ОписаниеОшибки</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<Width>20</Width>
-											<ContextMenu name="ЗаказыОписаниеОшибкиКонтекстноеМеню" id="139"/>
-											<ExtendedTooltip name="ЗаказыОписаниеОшибкиРасширеннаяПодсказка" id="140"/>
-										</InputField>
-									</ChildItems>
-								</ColumnGroup>
 								<InputField name="ЗаказыАртикул" id="251">
 									<DataPath>Объект.Заказы.Артикул</DataPath>
 									<Title>
@@ -917,6 +865,38 @@
 									<ContextMenu name="ЗаказыСуммаЗаказаКонтекстноеМеню" id="354"/>
 									<ExtendedTooltip name="ЗаказыСуммаЗаказаРасширеннаяПодсказка" id="355"/>
 								</InputField>
+								<InputField name="ЗаказыЗаказПокупателя" id="480">
+									<DataPath>Объект.Заказы.ЗаказПокупателя</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗаказыЗаказПокупателяКонтекстноеМеню" id="481"/>
+									<ExtendedTooltip name="ЗаказыЗаказПокупателяРасширеннаяПодсказка" id="482"/>
+								</InputField>
+								<InputField name="ЗаказыЗаказКлиента" id="132">
+									<DataPath>Объект.Заказы.ЗаказКлиента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗаказыЗаказКлиентаКонтекстноеМеню" id="133"/>
+									<ExtendedTooltip name="ЗаказыЗаказКлиентаРасширеннаяПодсказка" id="134"/>
+								</InputField>
+								<ColumnGroup name="ЗаказыГруппа8" id="351">
+									<ExtendedTooltip name="ЗаказыГруппа8РасширеннаяПодсказка" id="352"/>
+									<ChildItems>
+										<CheckBoxField name="ЗаказыЕстьОшибка" id="135">
+											<DataPath>Объект.Заказы.ЕстьОшибка</DataPath>
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЗаказыЕстьОшибкаКонтекстноеМеню" id="136"/>
+											<ExtendedTooltip name="ЗаказыЕстьОшибкаРасширеннаяПодсказка" id="137"/>
+										</CheckBoxField>
+										<InputField name="ЗаказыОписаниеОшибки" id="138">
+											<DataPath>Объект.Заказы.ОписаниеОшибки</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ЗаказыОписаниеОшибкиКонтекстноеМеню" id="139"/>
+											<ExtendedTooltip name="ЗаказыОписаниеОшибкиРасширеннаяПодсказка" id="140"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
 							</ChildItems>
 						</Table>
 						<Table name="ЗаказыФайлыДляСкачивания" id="965">
@@ -995,6 +975,13 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 									<ContextMenu name="ЗаказыФайлыURLКонтекстноеМеню" id="982"/>
 									<ExtendedTooltip name="ЗаказыФайлыURLРасширеннаяПодсказка" id="983"/>
 								</InputField>
@@ -1051,6 +1038,13 @@
 								</InputField>
 								<InputField name="ЧислоТоваров" id="931">
 									<DataPath>Объект.ЧислоТоваров</DataPath>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 									<ContextMenu name="ЧислоТоваровКонтекстноеМеню" id="932"/>
 									<ExtendedTooltip name="ЧислоТоваровРасширеннаяПодсказка" id="933"/>
 								</InputField>
@@ -1072,6 +1066,13 @@
 								<InputField name="СхемаСопоставленияТовара" id="1037">
 									<DataPath>Объект.СхемаСопоставленияТовара</DataPath>
 									<DropListButton>true</DropListButton>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 									<ContextMenu name="СхемаСопоставленияТовараКонтекстноеМеню" id="1038"/>
 									<ExtendedTooltip name="СхемаСопоставленияТовараРасширеннаяПодсказка" id="1039"/>
 									<Events>
@@ -1311,11 +1312,6 @@
 												</Title>
 												<ExtendedTooltip name="ТоварыSelSupГруппа11РасширеннаяПодсказка" id="876"/>
 												<ChildItems>
-													<Button name="ТоварыSelSupВыбратьПоФильтру" id="1128">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Command.ТоварыSelSupВыбратьПоФильтру</CommandName>
-														<ExtendedTooltip name="ТоварыSelSupВыбратьПоФильтруРасширеннаяПодсказка" id="1129"/>
-													</Button>
 													<Button name="ТоварыSelSupВыбратьВсеФлажки" id="877">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ТоварыSelSupВыбратьВсеФлажки</CommandName>
@@ -1419,6 +1415,13 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 											<ContextMenu name="СписокТоваровLinksNoBlockКонтекстноеМеню" id="935"/>
 											<ExtendedTooltip name="СписокТоваровLinksNoBlockРасширеннаяПодсказка" id="936"/>
 										</InputField>
@@ -1479,6 +1482,29 @@
 										</InputField>
 										<InputField name="ТоварыSelSupOzonArticle" id="1028">
 											<DataPath>Объект.ТоварыSelSup.ozonArticle</DataPath>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupOzonArticleКонтекстноеМеню" id="1029"/>
+											<ExtendedTooltip name="ТоварыSelSupOzonArticleРасширеннаяПодсказка" id="1030"/>
+										</InputField>
+										<InputField name="ТоварыSelSupSberArticle" id="1031">
+											<DataPath>Объект.ТоварыSelSup.sberArticle</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupSberArticleКонтекстноеМеню" id="1032"/>
+											<ExtendedTooltip name="ТоварыSelSupSberArticleРасширеннаяПодсказка" id="1033"/>
+										</InputField>
+										<InputField name="ТоварыSelSupYandexMarketShopSku" id="1034">
+											<DataPath>Объект.ТоварыSelSup.yandexMarketShopSku</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ТоварыSelSupYandexMarketShopSkuКонтекстноеМеню" id="1035"/>
+											<ExtendedTooltip name="ТоварыSelSupYandexMarketShopSkuРасширеннаяПодсказка" id="1036"/>
+========
+=======
+>>>>>>> origin/master
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ТоварыSelSupOzonArticleКонтекстноеМеню" id="1029"/>
 											<ExtendedTooltip name="ТоварыSelSupOzonArticleРасширеннаяПодсказка" id="1030"/>
@@ -1522,6 +1548,10 @@
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ТоварыSelSupПолеAnyArticleКонтекстноеМеню" id="1096"/>
 											<ExtendedTooltip name="ТоварыSelSupПолеAnyArticleРасширеннаяПодсказка" id="1097"/>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 										</InputField>
 										<InputField name="СписокТоваровSelSupOneCId" id="547">
 											<DataPath>Объект.ТоварыSelSup.oneCId</DataPath>
@@ -1627,12 +1657,26 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 													<ContextMenu name="СписокТоваров1CBarcodeКонтекстноеМеню" id="942"/>
 													<ExtendedTooltip name="СписокТоваров1CBarcodeРасширеннаяПодсказка" id="943"/>
 												</InputField>
 												<InputField name="СписокТоваров1CКод" id="944">
 													<DataPath>Объект.Товары1C.Код</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 													<ContextMenu name="СписокТоваров1CКодКонтекстноеМеню" id="945"/>
 													<ExtendedTooltip name="СписокТоваров1CКодРасширеннаяПодсказка" id="946"/>
 												</InputField>
@@ -1656,6 +1700,20 @@
 															<v8:content>Характеристика 1С</v8:content>
 														</v8:item>
 													</Title>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СписокТоваров1CХарактеристикаКонтекстноеМеню" id="948"/>
+													<ExtendedTooltip name="СписокТоваров1CХарактеристикаРасширеннаяПодсказка" id="949"/>
+												</InputField>
+												<InputField name="СписокТоваров1CSkuId" id="571">
+													<DataPath>Объект.Товары1C.id</DataPath>
+													<Visible>false</Visible>
+													<EditMode>EnterOnInput</EditMode>
+========
+=======
+>>>>>>> origin/master
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СписокТоваров1CХарактеристикаКонтекстноеМеню" id="948"/>
 													<ExtendedTooltip name="СписокТоваров1CХарактеристикаРасширеннаяПодсказка" id="949"/>
@@ -1664,6 +1722,10 @@
 													<DataPath>Объект.Товары1C.id</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 													<ContextMenu name="СписокТоваров1CSkuIdКонтекстноеМеню" id="572"/>
 													<ExtendedTooltip name="СписокТоваров1CSkuIdРасширеннаяПодсказка" id="573"/>
 												</InputField>
@@ -1885,6 +1947,13 @@
 									<v8:content>Организация</v8:content>
 								</v8:item>
 							</Title>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 							<ContextMenu name="ОрганизацияИТКонтекстноеМеню" id="1017"/>
 							<ExtendedTooltip name="ОрганизацияИТРасширеннаяПодсказка" id="1018"/>
 						</InputField>
@@ -1892,6 +1961,13 @@
 							<DataPath>ФайлИмпорта</DataPath>
 							<Visible>false</Visible>
 							<ChoiceButton>true</ChoiceButton>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 							<ContextMenu name="ФайлИмпортаКонтекстноеМеню" id="1012"/>
 							<ExtendedTooltip name="ФайлИмпортаРасширеннаяПодсказка" id="1013"/>
 							<Events>
@@ -1944,6 +2020,11 @@
 									<ContextMenu name="ВыбСкладКонтекстноеМеню" id="154"/>
 									<ExtendedTooltip name="ВыбСкладРасширеннаяПодсказка" id="155"/>
 								</InputField>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
+=======
+>>>>>>> origin/master
 								<CheckBoxField name="ВиртуальныйРезерв" id="1098">
 									<DataPath>Объект.ВиртуальныйРезерв</DataPath>
 									<Title>
@@ -1956,6 +2037,10 @@
 									<ContextMenu name="ВиртуальныйРезервКонтекстноеМеню" id="1099"/>
 									<ExtendedTooltip name="ВиртуальныйРезервРасширеннаяПодсказка" id="1100"/>
 								</CheckBoxField>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 								<InputField name="ВыбОрганизация" id="842">
 									<Title>
 										<v8:item>
@@ -1994,11 +2079,6 @@
 										</ToolTip>
 										<ExtendedTooltip name="ТоварыГруппа10РасширеннаяПодсказка" id="837"/>
 										<ChildItems>
-											<Button name="ТоварыВыбратьПоФильтру" id="1126">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ТоварыВыбратьПоФильтру</CommandName>
-												<ExtendedTooltip name="ТоварыВыбратьПоФильтруРасширеннаяПодсказка" id="1127"/>
-											</Button>
 											<Button name="ТоварыВыбратьВсеФлажки" id="838">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ТоварыВыбратьВсеФлажки</CommandName>
@@ -2081,6 +2161,11 @@
 									<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="76"/>
 									<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="77"/>
 								</LabelField>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
+=======
+>>>>>>> origin/master
 								<InputField name="ТоварыКод" id="1104">
 									<DataPath>Объект.Товары.Код</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -2088,6 +2173,10 @@
 									<ContextMenu name="ТоварыКодКонтекстноеМеню" id="1105"/>
 									<ExtendedTooltip name="ТоварыКодРасширеннаяПодсказка" id="1106"/>
 								</InputField>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 								<InputField name="ТоварыНаименованиеТовара" id="820">
 									<DataPath>Объект.Товары.НаименованиеТовара</DataPath>
 									<Visible>false</Visible>
@@ -2102,6 +2191,11 @@
 									<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="83"/>
 								</InputField>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
+=======
+>>>>>>> origin/master
 								<InputField name="ТоварыАртикул" id="1101">
 									<DataPath>Объект.Товары.Артикул</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -2109,6 +2203,10 @@
 									<ContextMenu name="ТоварыАртикулКонтекстноеМеню" id="1102"/>
 									<ExtendedTooltip name="ТоварыАртикулРасширеннаяПодсказка" id="1103"/>
 								</InputField>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 								<InputField name="ТоварыХарактеристика" id="845">
 									<DataPath>Объект.Товары.Характеристика</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -2174,7 +2272,14 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
 									<FooterDataPath>Объект.Товары.TotalОстаток1С</FooterDataPath>
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+									<FooterDataPath>Объект.Товары.TotalОстаток1С</FooterDataPath>
+>>>>>>> origin/master
 									<ContextMenu name="ТоварыОстатокКонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="ТоварыОстатокРасширеннаяПодсказка" id="89"/>
 								</InputField>
@@ -2187,7 +2292,14 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
 									<FooterDataPath>Объект.Товары.TotalОстатокSelSup</FooterDataPath>
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+									<FooterDataPath>Объект.Товары.TotalОстатокSelSup</FooterDataPath>
+>>>>>>> origin/master
 									<ContextMenu name="ТоварыОстатокSelSupКонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="ТоварыОстатокSelSupРасширеннаяПодсказка" id="86"/>
 								</InputField>
@@ -2329,6 +2441,14 @@
 										<Event name="OnChange">ВводШтрихкодаПриИзменении</Event>
 									</Events>
 								</InputField>
+								<Button name="Кнопка1" id="1059">
+									<Type>UsualButton</Type>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+									<Visible>false</Visible>
+									<CommandName>Form.Command.КомандаТест2</CommandName>
+									<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="1060"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<Table name="Комплектация" id="783">
@@ -2495,11 +2615,200 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+========
+=======
+>>>>>>> origin/master
+									<CommandName>Form.Command.КомандаТест2</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Тест</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="1060"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="Комплектация" id="783">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Комплектация</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КомплектацияКонтекстноеМеню" id="784"/>
+							<AutoCommandBar name="КомплектацияКоманднаяПанель" id="785">
+								<ChildItems>
+									<Button name="ТоварыПоискПоШтрихкоду" id="808">
+										<Type>CommandBarButton</Type>
+										<Visible>false</Visible>
+										<Representation>PictureAndText</Representation>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Command.ПоискПоШтрихкоду</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Найти товар по штрихкоду</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ТоварыПоискПоШтрихкодуExtendedTooltip" id="809"/>
+									</Button>
+									<Button name="КомплектацияОперацияСброса" id="1007">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.КомплектацияОперацияСброса</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.AppearanceFlagGreen</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сбросить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КомплектацияОперацияСбросаРасширеннаяПодсказка" id="1008"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="КомплектацияРасширеннаяПодсказка" id="786"/>
+							<SearchStringAddition name="КомплектацияСтрокаПоиска" id="787">
+								<AdditionSource>
+									<Item>Комплектация</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияСтрокаПоискаКонтекстноеМеню" id="788"/>
+								<ExtendedTooltip name="КомплектацияСтрокаПоискаРасширеннаяПодсказка" id="789"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомплектацияСостояниеПросмотра" id="790">
+								<AdditionSource>
+									<Item>Комплектация</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияСостояниеПросмотраКонтекстноеМеню" id="791"/>
+								<ExtendedTooltip name="КомплектацияСостояниеПросмотраРасширеннаяПодсказка" id="792"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомплектацияУправлениеПоиском" id="793">
+								<AdditionSource>
+									<Item>Комплектация</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияУправлениеПоискомКонтекстноеМеню" id="794"/>
+								<ExtendedTooltip name="КомплектацияУправлениеПоискомРасширеннаяПодсказка" id="795"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="Таблица1НомерСтроки" id="796">
+									<DataPath>Объект.Комплектация.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Таблица1НомерСтрокиКонтекстноеМеню" id="797"/>
+									<ExtendedTooltip name="Таблица1НомерСтрокиРасширеннаяПодсказка" id="798"/>
+								</LabelField>
+								<InputField name="Таблица1Номенклатура" id="799">
+									<DataPath>Объект.Комплектация.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Таблица1НоменклатураКонтекстноеМеню" id="800"/>
+									<ExtendedTooltip name="Таблица1НоменклатураРасширеннаяПодсказка" id="801"/>
+								</InputField>
+								<InputField name="Таблица1Штрихкод" id="802">
+									<DataPath>Объект.Комплектация.Штрихкод</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Таблица1ШтрихкодКонтекстноеМеню" id="803"/>
+									<ExtendedTooltip name="Таблица1ШтрихкодРасширеннаяПодсказка" id="804"/>
+								</InputField>
+								<InputField name="Таблица1Количество" id="805">
+									<DataPath>Объект.Комплектация.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Таблица1КоличествоКонтекстноеМеню" id="806"/>
+									<ExtendedTooltip name="Таблица1КоличествоРасширеннаяПодсказка" id="807"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Table name="КомплектацияФайлыДляСкачивания" id="986">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ФайлыДляСкачивания</DataPath>
+							<RowsPicture>
+								<xr:Abs>RowsPicture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КомплектацияФайлыДляСкачиванияКонтекстноеМеню" id="987"/>
+							<AutoCommandBar name="КомплектацияФайлыДляСкачиванияКоманднаяПанель" id="988">
+								<ChildItems>
+									<Button name="КомплектацияФайлыДляСкачиванияЗакрыть" id="1005">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.ЗакрытьКомплектацияФайлыДляСкачивания</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.AppearanceCross</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Закрыть</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияЗакрытьРасширеннаяПодсказка" id="1006"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияРасширеннаяПодсказка" id="989"/>
+							<SearchStringAddition name="КомплектацияФайлыДляСкачиванияСтрокаПоиска" id="990">
+								<AdditionSource>
+									<Item>КомплектацияФайлыДляСкачивания</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияФайлыДляСкачиванияСтрокаПоискаКонтекстноеМеню" id="991"/>
+								<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияСтрокаПоискаРасширеннаяПодсказка" id="992"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомплектацияФайлыДляСкачиванияСостояниеПросмотра" id="993">
+								<AdditionSource>
+									<Item>КомплектацияФайлыДляСкачивания</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияФайлыДляСкачиванияСостояниеПросмотраКонтекстноеМеню" id="994"/>
+								<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияСостояниеПросмотраРасширеннаяПодсказка" id="995"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомплектацияФайлыДляСкачиванияУправлениеПоиском" id="996">
+								<AdditionSource>
+									<Item>КомплектацияФайлыДляСкачивания</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомплектацияФайлыДляСкачиванияУправлениеПоискомКонтекстноеМеню" id="997"/>
+								<ExtendedTooltip name="КомплектацияФайлыДляСкачиванияУправлениеПоискомРасширеннаяПодсказка" id="998"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КомплектацияФайлыДляСкачиванияВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ЗаказыФайлыНомерСтроки1" id="999">
+									<DataPath>Объект.ФайлыДляСкачивания.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗаказыФайлыНомерСтроки1КонтекстноеМеню" id="1000"/>
+									<ExtendedTooltip name="ЗаказыФайлыНомерСтроки1РасширеннаяПодсказка" id="1001"/>
+								</LabelField>
+								<InputField name="ЗаказыФайлыURL1" id="1002">
+									<DataPath>Объект.ФайлыДляСкачивания.URL</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 											<v8:content>Скачать</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 									<ContextMenu name="ЗаказыФайлыURL1КонтекстноеМеню" id="1003"/>
 									<ExtendedTooltip name="ЗаказыФайлыURL1РасширеннаяПодсказка" id="1004"/>
 								</InputField>
@@ -2793,11 +3102,6 @@
 														</Title>
 														<ExtendedTooltip name="ЗаказыГруппа9РасширеннаяПодсказка" id="695"/>
 														<ChildItems>
-															<Button name="СкладыВыбратьПоФильтру" id="1124">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.СкладыВыбратьПоФильтру</CommandName>
-																<ExtendedTooltip name="СкладыВыбратьПоФильтруРасширеннаяПодсказка" id="1125"/>
-															</Button>
 															<Button name="СкладыВыбратьВсеФлажки" id="696">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.СкладыВыбратьВсеФлажки</CommandName>
@@ -2936,12 +3240,21 @@
 												<Event name="OnChange">ИспользоватьРасширеннуюНастройкуЗаказовПриИзменении</Event>
 											</Events>
 										</CheckBoxField>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
+=======
+>>>>>>> origin/master
 										<InputField name="ВыбПрефикс" id="1107">
 											<DataPath>Объект.ВыбПрефикс</DataPath>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ВыбПрефиксКонтекстноеМеню" id="1108"/>
 											<ExtendedTooltip name="ВыбПрефиксРасширеннаяПодсказка" id="1109"/>
 										</InputField>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 										<InputField name="ВидОперацииЗК" id="281">
 											<DataPath>Объект.ВидОперацииЗК</DataPath>
 											<Title>
@@ -2985,12 +3298,21 @@
 											<ContextMenu name="ВыбДоговорКонтекстноеМеню" id="903"/>
 											<ExtendedTooltip name="ВыбДоговорРасширеннаяПодсказка" id="904"/>
 										</InputField>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
+=======
+>>>>>>> origin/master
 										<CheckBoxField name="ВыбИспользоватьБонусныеЦены" id="1113">
 											<DataPath>Объект.ВыбИспользоватьБонусныеЦены</DataPath>
 											<CheckBoxType>Switcher</CheckBoxType>
 											<ContextMenu name="ВыбИспользоватьБонусныеЦеныКонтекстноеМеню" id="1114"/>
 											<ExtendedTooltip name="ВыбИспользоватьБонусныеЦеныРасширеннаяПодсказка" id="1115"/>
 										</CheckBoxField>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 										<Table name="РасширеннаяНастройкаЗаказов" id="700">
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
@@ -3038,6 +3360,25 @@
 													<ChoiceButton>false</ChoiceButton>
 													<ContextMenu name="РасширеннаяНастройкаЗаказовМаркетплейсКонтекстноеМеню" id="917"/>
 													<ExtendedTooltip name="РасширеннаяНастройкаЗаказовМаркетплейсРасширеннаяПодсказка" id="918"/>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+												</InputField>
+												<InputField name="РасширеннаяНастройкаЗаказовВидОперацииЗК" id="928">
+													<DataPath>Объект.РасширеннаяНастройкаЗаказов.ВидОперацииЗК</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Операция по Заказу клиента</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<DropListButton>true</DropListButton>
+													<ContextMenu name="РасширеннаяНастройкаЗаказовВидОперацииЗККонтекстноеМеню" id="929"/>
+													<ExtendedTooltip name="РасширеннаяНастройкаЗаказовВидОперацииЗКРасширеннаяПодсказка" id="930"/>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 												</InputField>
 												<InputField name="РасширеннаяНастройкаЗаказовВидОперацииЗК" id="928">
 													<DataPath>Объект.РасширеннаяНастройкаЗаказов.ВидОперацииЗК</DataPath>
@@ -3077,6 +3418,11 @@
 													<ContextMenu name="РасширеннаяНастройкаЗаказовДоговорКонтекстноеМеню" id="906"/>
 													<ExtendedTooltip name="РасширеннаяНастройкаЗаказовДоговорРасширеннаяПодсказка" id="907"/>
 												</InputField>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
+=======
+>>>>>>> origin/master
 												<InputField name="РасширеннаяНастройкаЗаказовПрефикс" id="1110">
 													<DataPath>Объект.РасширеннаяНастройкаЗаказов.Префикс</DataPath>
 													<EditMode>EnterOnInput</EditMode>
@@ -3084,6 +3430,10 @@
 													<ContextMenu name="РасширеннаяНастройкаЗаказовПрефиксКонтекстноеМеню" id="1111"/>
 													<ExtendedTooltip name="РасширеннаяНастройкаЗаказовПрефиксРасширеннаяПодсказка" id="1112"/>
 												</InputField>
+<<<<<<< HEAD
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 											</ChildItems>
 										</Table>
 										<InputField name="ВыбСкладРеал" id="311">
@@ -3132,11 +3482,25 @@
 										</InputField>
 										<InputField name="ВыбПричинаОтменыЗаказа" id="1022">
 											<DataPath>Объект.ВыбПричинаОтменыЗаказа</DataPath>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 											<ContextMenu name="ВыбПричинаОтменыЗаказаКонтекстноеМеню" id="1023"/>
 											<ExtendedTooltip name="ВыбПричинаОтменыЗаказаРасширеннаяПодсказка" id="1024"/>
 										</InputField>
 										<InputField name="ВыбПричинаОтменыЗаказаПокупателем" id="1025">
 											<DataPath>Объект.ВыбПричинаОтменыЗаказаПокупателем</DataPath>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+========
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+>>>>>>> origin/master
 											<ContextMenu name="ВыбПричинаОтменыЗаказаПокупателемКонтекстноеМеню" id="1026"/>
 											<ExtendedTooltip name="ВыбПричинаОтменыЗаказаПокупателемРасширеннаяПодсказка" id="1027"/>
 										</InputField>
@@ -3296,16 +3660,32 @@
 				<Field>Объект.ApiKey</Field>
 				<Field>Объект.ClientID</Field>
 				<Field>Объект.ВидОперацииЗК</Field>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
 				<Field>Объект.ВключитьВАвтообменЗаказами</Field>
 				<Field>Объект.ВключитьВАвтообменОстатками</Field>
 				<Field>Объект.ВключитьВАвтообменТоварами</Field>
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+				<Field>Объект.ВключитьВАвтообменЗаказами</Field>
+				<Field>Объект.ВключитьВАвтообменОстатками</Field>
+				<Field>Объект.ВключитьВАвтообменТоварами</Field>
+>>>>>>> origin/master
 				<Field>Объект.ВключитьТестовыйРежим</Field>
 				<Field>Объект.ВыбДоговор</Field>
 				<Field>Объект.ВыбЕдиницаИзмеренияУНФ</Field>
 				<Field>Объект.ВыбИспользоватьБонусныеЦены</Field>
 				<Field>Объект.ВыбКонтрагент</Field>
 				<Field>Объект.ВыбМенеджер</Field>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
 				<Field>Объект.ВыбПрефикс</Field>
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+				<Field>Объект.ВыбПрефикс</Field>
+>>>>>>> origin/master
 				<Field>Объект.ВыбПричинаОтменыЗаказа</Field>
 				<Field>Объект.ВыбПричинаОтменыЗаказаПокупателем</Field>
 				<Field>Объект.ВыбСклад</Field>
@@ -3318,7 +3698,14 @@
 				<Field>Объект.НалогообложениеНДС</Field>
 				<Field>Объект.Организация</Field>
 				<Field>Объект.ОрганизацияИТ</Field>
+<<<<<<< HEAD
+<<<<<<<< HEAD:ИнтеграцияСSelSup_cfe/DataProcessors/ОбменSelSup_УТ/Forms/Форма/Ext/Form.xml
+========
 				<Field>Объект.СоздаватьРеализацииКЗаказам</Field>
+>>>>>>>> origin/master:ОбменSelSup/ОбменSelSup/Forms/Форма/Ext/Form.xml
+=======
+				<Field>Объект.СоздаватьРеализацииКЗаказам</Field>
+>>>>>>> origin/master
 				<Field>Объект.СпособДоставки</Field>
 				<Field>Объект.СтатусОтправления</Field>
 				<Field>Объект.СхемаСопоставленияТовара</Field>
@@ -4541,20 +4928,20 @@
 			</ToolTip>
 			<Action>СохранитьНастройки</Action>
 		</Command>
-		<Command name="УкомплектоватьЗаказыПокупателей" id="76">
+		<Command name="КомандаТест2" id="76">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Укомплектовать заказы покупателей</v8:content>
+					<v8:content>Команда тест2</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Укомплектовать заказы покупателей</v8:content>
+					<v8:content>Команда тест2</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>УкомплектоватьЗаказыПокупателей</Action>
+			<Action>КомандаТест2</Action>
 		</Command>
 		<Command name="ИзменитьServicesImport_WILDBERRIES" id="79">
 			<Title>
@@ -4690,81 +5077,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьServicesImport_ALIE_EXPRESS</Action>
-		</Command>
-		<Command name="ВыбратьПоФильтру" id="89">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выбрать по фильтру</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выбрать по фильтру</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ВыбратьПоФильтру</Action>
-		</Command>
-		<Command name="СкладыВыбратьПоФильтру" id="90">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Склады выбрать по фильтру</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Склады выбрать по фильтру</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>СкладыВыбратьПоФильтру</Action>
-		</Command>
-		<Command name="ТоварыВыбратьПоФильтру" id="91">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выбрать по фильтру</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Товары выбрать по фильтру</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ТоварыВыбратьПоФильтру</Action>
-		</Command>
-		<Command name="ТоварыSelSupВыбратьПоФильтру" id="92">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выбрать по фильтру</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Товары sel sup выбрать по фильтру</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ТоварыSelSupВыбратьПоФильтру</Action>
-		</Command>
-		<Command name="ЗаполнитьЗаказыПокупателей" id="93">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить заказы покупателей</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ЗаполнитьЗаказыПокупателей</Action>
 		</Command>
 	</Commands>
 </Form>

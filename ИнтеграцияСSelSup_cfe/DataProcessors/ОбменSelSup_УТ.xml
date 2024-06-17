@@ -1555,7 +1555,11 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
+<<<<<<< HEAD
+							<v8:Length>25</v8:Length>
+=======
 							<v8:Length>100</v8:Length>
+>>>>>>> origin/master
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -1754,6 +1758,8 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
+<<<<<<< HEAD
+=======
 			<Attribute uuid="48973669-a9dd-4252-97de-92c45152e3cf">
 				<Properties>
 					<Name>ВиртуальныйРезерв</Name>
@@ -1870,6 +1876,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
+>>>>>>> origin/master
 			<TabularSection uuid="1b27fd73-7a06-48ab-9aab-130b91b61ebe">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ОбменSelSup_УТ.Товары" category="TabularSection">
@@ -1924,6 +1931,12 @@
 				<ChildObjects>
 					<Attribute uuid="2439436e-5033-45f9-89c4-e4885bbc1b4c">
 						<Properties>
+<<<<<<< HEAD
+							<Name>Артикул</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+=======
 							<Name>Код</Name>
 							<Synonym>
 								<v8:item>
@@ -1968,6 +1981,7 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+>>>>>>> origin/master
 									<v8:content>Артикул</v8:content>
 								</v8:item>
 							</Synonym>
@@ -3946,42 +3960,6 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="31584c81-0092-4f6f-962a-e16d739c4fd6">
-						<Properties>
-							<Name>Реализация</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Реализация</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillFromFillingValue>false</FillFromFillingValue>
-							<FillValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-						</Properties>
-					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="84048441-1eba-43e3-807d-b2686a91323a">
@@ -4403,7 +4381,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>20</v8:Length>
+=======
 									<v8:Length>50</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4443,7 +4425,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>20</v8:Length>
+=======
 									<v8:Length>50</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4483,7 +4469,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>20</v8:Length>
+=======
 									<v8:Length>50</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4523,7 +4513,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>20</v8:Length>
+=======
 									<v8:Length>50</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4563,7 +4557,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>20</v8:Length>
+=======
 									<v8:Length>50</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4603,7 +4601,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>20</v8:Length>
+=======
 									<v8:Length>50</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4643,7 +4645,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>20</v8:Length>
+=======
 									<v8:Length>50</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4886,7 +4892,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>20</v8:Length>
+=======
 									<v8:Length>50</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -4926,7 +4936,11 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
+<<<<<<< HEAD
+									<v8:Length>10</v8:Length>
+=======
 									<v8:Length>20</v8:Length>
+>>>>>>> origin/master
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -5700,6 +5714,8 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
+<<<<<<< HEAD
+=======
 					<Attribute uuid="3e665ae9-0020-47c3-834c-bb0dae636e85">
 						<Properties>
 							<Name>Префикс</Name>
@@ -5786,6 +5802,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
+>>>>>>> origin/master
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="f85bf05a-a96a-4966-b69e-d03b98a9c09f">
