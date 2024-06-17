@@ -23,7 +23,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменSelSup_УТ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.SS_РасширеннаяНастройкаЗаказов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.SS_НастройкаОбмена</xr:Item>
+<<<<<<< HEAD
+=======
 				<xr:Item xsi:type="xr:MDObjectRef">041d9438-f431-4052-a2c2-0484af480775</xr:Item>
+>>>>>>> origin/master
 			</Content>
 		</Properties>
 		<ChildObjects/>

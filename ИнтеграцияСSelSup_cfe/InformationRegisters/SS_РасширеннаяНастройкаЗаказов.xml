@@ -257,6 +257,8 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
+<<<<<<< HEAD
+=======
 			<Resource uuid="bdee8d25-bb49-4a60-a9b5-93cbbdacc99e">
 				<Properties>
 					<Name>Префикс</Name>
@@ -349,6 +351,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
+>>>>>>> origin/master
 			<Dimension uuid="0a10d111-d7d3-433d-87bc-0ddf69f7f0a0">
 				<Properties>
 					<Name>Организация</Name>
