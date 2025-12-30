@@ -1,0 +1,15 @@
+{
+"actual_version": "0.1.0.1",
+"beta_version": "0.2.0.1",
+"master_version": "0.1.0.1",
+"relises": [
+  {
+    "version": "0.1.0.1",
+    "date_rel": "2024-08-08",
+    "filename": "SelSup_BP_v.0.1.0.1.cfe",
+    "upd_from": "0.1.0.0",
+    "mono_access": true,
+	 "instruction": "SelSup_instruction_BP_v.0.1.1.pdf"
+  }
+]
+}

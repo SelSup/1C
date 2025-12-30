@@ -1,0 +1,31 @@
+{
+"actual_version": "0.1.1.2",
+"beta_version": "0.2.0.2",
+"master_version": "0.1.1.2",
+"relises": [
+  {
+    "version": "0.1.0.1",
+    "date_rel": "2024-04-15",
+    "filename": "SelSup_UTKAERP_v.0.1.0.1.cfe",
+    "upd_from": "0.1.0.0",
+    "mono_access": true,
+	 "instruction": "SelSup_instruction_UTKAERP_v.0.1.1.pdf"
+  },
+  {
+    "version": "0.1.1.1",
+    "date_rel": "2024-08-17",
+    "filename": "SelSup_UTKAERP_v.0.1.1.1.cfe",
+    "upd_from": "0.1.0.1",
+    "mono_access": true,
+	   "instruction": "SelSup_instruction_UTKAERP_v.0.1.1.pdf"
+  },
+  {
+    "version": "0.1.1.2",
+    "date_rel": "2024-11-06",
+    "filename": "SelSup_UTKAERP_v.0.1.1.2.cfe",
+    "upd_from": "0.1.0.1",
+    "mono_access": true,
+	 "instruction": "SelSup_instruction_UTKAERP_v.0.1.1.pdf"
+  }
+]
+}

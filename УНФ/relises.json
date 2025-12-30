@@ -1,0 +1,31 @@
+{
+"actual_version": "0.1.2.1",
+"beta_version": "0.2.0.2",
+"master_version": "0.1.1.2",
+"relises": [
+  {
+    "version": "0.1.0.1",
+    "date_rel": "2024-04-15",
+    "filename": "SelSup_UNF_v.0.1.0.1.cfe",
+    "upd_from": "0.1.0.0",
+    "mono_access": true,
+	 "instruction": "SelSup_instruction_UNF_v.0.1.2.pdf"
+  },
+  {
+    "version": "0.1.1.1",
+    "date_rel": "2024-07-23",
+    "filename": "SelSup_UNF_v.0.1.1.1.cfe",
+    "upd_from": "0.1.0.1",
+    "mono_access": true,
+	   "instruction": "SelSup_instruction_UNF_v.0.1.2.pdf"
+  },
+  {
+    "version": "0.1.2.1",
+    "date_rel": "2024-11-27",
+    "filename": "SelSup_UNF_v.0.1.2.1.cfe",
+    "upd_from": "0.1.1.1",
+    "mono_access": true,
+	 "instruction": "SelSup_instruction_UNF_v.0.1.2.pdf"
+  }
+]
+}
